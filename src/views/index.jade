@@ -39,6 +39,21 @@ html
             a(href=p.link)
               p= p.title 
             p= p.contact
+        .subsection
+          h2.subsection-title About Us
+          .subsection-content
+            figure
+              img(src="http://placehold.it/350x100", alt="")
+              figcaption We design, build, and study systems centered around understanding how people interact with one another in virtual and physical spaces.
+
+            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae autem officia odio perspiciatis dolorum temporibus ducimus, nostrum quisquam quos soluta quo adipisci pariatur molestias accusantium tempora asperiores obcaecati consequuntur eiu
+
+        .subsection
+          include ./about/people.jade
+        .subsection
+          include ./about/projects.jade
+        .subsection
+          h2.subsection-title News
 
     .slide
       .card
