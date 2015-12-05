@@ -3,11 +3,10 @@ import '../styles/index.styl';
 
 $(() => {
   $('.slide')
-    .height($(window).height());
+    .css("min-height", $(window).height());
 
   $(window).scroll(() => {
     if ($("body").scrollTop() > 200) {
-      console.log('yo')
       $(".header").addClass("stick");
     } else {
       $(".header").removeClass("stick");

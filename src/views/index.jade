@@ -33,7 +33,18 @@ html
     .slide
       .card
         p about
+        ul: each p in people
+          li
+            p= p.name
+            img(src='#{p.image}')
+            a(href=p.link)
+              p= p.title 
+            p= p.contact
 
     .slide
       .card
         p publications
+        ul: each p in publications
+          li
+            img(src='#{p.image}')
+            a(href=p.link): p= p.title

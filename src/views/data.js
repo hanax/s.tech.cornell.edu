@@ -3,12 +3,12 @@ var marked = require('marked');
 var publications = [
   {
     title: 'paper title',
-    image: 'http://lorempixel.com/400/400/cat/1/',
+    image: 'http://lorempixel.com/g/400/400/cats/1/',
     link: '#'
   },
   {
     title: 'paper title',
-    image: 'http://lorempixel.com/400/400/cat/2/',
+    image: 'http://lorempixel.com/g/400/400/cats/2/',
     link: '#'
   },
 ];
@@ -16,19 +16,19 @@ var publications = [
 var projects = [
   {
     title: 'project title',
-    image: 'http://lorempixel.com/400/400/cat/3/',
+    image: 'http://lorempixel.com/g/400/400/cats/3/',
     desc: 'desc',
     link: '#'
   },
   {
     title: 'project title',
-    image: 'http://lorempixel.com/400/400/cat/3/',
+    image: 'http://lorempixel.com/g/400/400/cats/3/',
     desc: 'desc',
     link: '#'
   },
   {
     title: 'project title',
-    image: 'http://lorempixel.com/400/400/cat/3/',
+    image: 'http://lorempixel.com/g/400/400/cats/3/',
     desc: 'desc',
     link: '#'
   },
@@ -40,14 +40,14 @@ var projects = [
 var people = [
   {
     name: 'Xiao Ma',
-    url: '#',
-    image: 'http://lorempixel.com/400/400/cat/4/',
+    link: '#',
+    image: 'http://lorempixel.com/g/400/400/cats/4/',
     contact: 'hi@gmail.com'
   },
   {
     name: 'Xiao Ma',
-    url: '#',
-    image: 'http://lorempixel.com/400/400/cat/4/',
+    link: '#',
+    image: 'http://lorempixel.com/g/400/400/cats/4/',
     contact: 'hi@gmail.com'
   },
 ];
