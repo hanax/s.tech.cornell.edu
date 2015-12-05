@@ -2,13 +2,6 @@ import 'normalize-css';
 import '../styles/index.styl';
 
 $(() => {
-
-  $('video').on('ended', () => {
-    console.log('end');
-    this.load();
-    this.play();
-  });
-
   $('.slide')
     .height($(window).height())
     .width($(window).width());
