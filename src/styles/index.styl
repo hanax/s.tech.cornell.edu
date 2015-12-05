@@ -40,4 +40,33 @@ a
     height: 100%
 
 .slide
-  background-color rgba(0,0,0,.5)
+  width 100%
+  .header
+    position absolute
+    text-align center
+    top 50%
+    left 50%
+    width 60%
+    transform translate(-50%, -50%)
+    color #fff
+    .title
+      font-size 30px
+    .desc
+      font-size 20px
+    &.stick
+      position fixed
+      text-align left
+      top 5%
+      left 5%
+      transform translate(0, 0)
+      -webkit-transition all 1s
+      .title
+        font-size 20px
+      .desc
+        display none
+  .card
+    width 90%
+    height 90%
+    margin-left auto
+    margin-right auto
+    background-color #fff
