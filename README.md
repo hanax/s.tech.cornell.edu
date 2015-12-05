@@ -1,5 +1,6 @@
 ## Website of Social Technologies Lab @ Cornell Tech
 
 ```
-gulp watch
+$ npm install
+$ gulp watch
 ```
