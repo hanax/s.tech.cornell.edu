@@ -15,15 +15,14 @@ html
     //- link(rel='shortcut icon' href='/assets/favicon.png')
 
     script(src='//code.jquery.com/jquery-2.1.4.min.js')
-    script(src='/main.js')
+    script(src='./main.js')
 
   body
     .fullscreen-bg
       video.fullscreen-bg-video(
         loop='', muted='', autoplay='', preload='', 
         poster='./assets/bg_video_fallback.jpg', 
-        src='./assets/bg_video.webm',
-        type='video/mp4')
+        src='./assets/bg_video.webm')
 
     .slide
       .header
@@ -47,4 +46,5 @@ html
         ul: each p in publications
           li
             img(src='#{p.image}')
-            a(href=p.link): p= p.title
+            a(href=p.link)
+              p= p.title
