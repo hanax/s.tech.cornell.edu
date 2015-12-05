@@ -15,19 +15,19 @@ var publications = [
 
 var projects = [
   {
-    title: 'project title',
+    title: 'CommonBeat',
     image: 'http://lorempixel.com/g/400/400/cats/3/',
     desc: 'desc',
     link: '#'
   },
   {
-    title: 'project title',
+    title: 'CommonBeat',
     image: 'http://lorempixel.com/g/400/400/cats/3/',
     desc: 'desc',
     link: '#'
   },
   {
-    title: 'project title',
+    title: 'CommonBeat',
     image: 'http://lorempixel.com/g/400/400/cats/3/',
     desc: 'desc',
     link: '#'
@@ -39,16 +39,36 @@ var projects = [
 
 var people = [
   {
-    name: 'Xiao Ma',
+    name: 'Lousie Barkhus',
+    title: 'Visiting Professor',
     link: '#',
     image: 'http://lorempixel.com/g/400/400/cats/4/',
-    contact: 'hi@gmail.com'
+    email: 'barkhuus@dsv.su.se',
+    twitter: ''
   },
   {
     name: 'Xiao Ma',
+    title: 'PhD Student',
     link: '#',
     image: 'http://lorempixel.com/g/400/400/cats/4/',
-    contact: 'hi@gmail.com'
+    email: 'xiao@jacobs.cornell.edu',
+    twitter: 'infoxiao'
+  },
+  {
+    name: 'Nir Grinberg',
+    title: 'Post-doc',
+    link: '#',
+    image: 'http://lorempixel.com/g/400/400/cats/4/',
+    email: 'rdm257@cornell.edu',
+    twitter: 'rossdmchlachlan'
+  },
+  {
+    name: 'Mor Naaman',
+    title: 'Associate Professor',
+    link: '#',
+    image: 'http://lorempixel.com/g/400/400/cats/4/',
+    email: 'mor@jacobs.cornell.edu',
+    twitter: 'infomor'
   },
 ];
 
