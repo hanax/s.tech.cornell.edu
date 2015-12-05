@@ -37,7 +37,6 @@ module.exports = {
   },
 
   plugins: [
-    new webpack.BannerPlugin('Copyright 2015 Scott Cheng http://scottcheng.com/'),
     new webpack.optimize.UglifyJsPlugin({
       compress: true,
       mangle: true,

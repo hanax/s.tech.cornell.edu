@@ -1,2 +1,2 @@
-## Portfolio site of Hannah Xue
-http://hanax.co
+## Website of Social Technologies Lab @ Cornell Tech
+

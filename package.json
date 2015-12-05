@@ -1,6 +1,6 @@
 {
-  "name": "static-website-boilerplate",
-  "author": "Scott Cheng",
+  "name": "social-technologies-lab-website",
+  "author": "Hannah Xue",
   "version": "0.0.2",
   "devDependencies": {
     "babel": "^5.8.23",
@@ -26,6 +26,5 @@
   "dependencies": {
     "normalize-css": "^2.3.1"
   },
-  "repository": "scottcheng/static-website-boilerplate",
-  "license": "MIT"
+  "repository": "hanax/social_technologies_lab_website"
 }
