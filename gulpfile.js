@@ -49,8 +49,8 @@ gulp.task('build', ['clean'], function(callback) {
 
 gulp.task('watch', ['build'], function() {
   gulp.watch(paths.src + '/scripts/**/*.js', ['webpack']);
-  gulp.watch(paths.src + '/styles/**/*.{styl,css,woff}', ['webpack']);
-  gulp.watch(paths.src + '/views/**/*', ['jade']);
+  gulp.watch(paths.src + '/styles/**/**//*.{styl,css,woff}', ['webpack']);
+  gulp.watch(paths.src + '/views/**/**/**//*.jade}', ['jade']);
 });
 
 gulp.task('default', ['build']);
