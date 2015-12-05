@@ -31,14 +31,6 @@ html
 
     .slide
       .card
-        p about
-        ul: each p in people
-          li
-            p= p.name
-            img(src='#{p.image}')
-            a(href=p.link)
-              p= p.title 
-            p= p.contact
         .subsection
           h2.subsection-title About Us
           .subsection-content
@@ -49,9 +41,29 @@ html
             p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae autem officia odio perspiciatis dolorum temporibus ducimus, nostrum quisquam quos soluta quo adipisci pariatur molestias accusantium tempora asperiores obcaecati consequuntur eiu
 
         .subsection
-          include ./about/people.jade
+          h2.subsection-title People
+          .subsection-content
+            ul#people-list: each p in people
+              li.person
+                img(src='#{p.image}')
+                .person-info
+                  a(href=p.link)
+                    h3.person-name= p.name
+                  p.person-title= p.title
+                .person-contact
+                  p.person-email= p.email
+                  p.person-twitter= p.twitter
+              
         .subsection
-          include ./about/projects.jade
+          h2.subsection-title People
+          .subsection-content
+            ul#project-list: each p in projects
+              li.project
+                img(src='#{p.image}')
+                h3.project-title= p.title
+                p.project-description= p.desc
+                a.project-link= p.link
+
         .subsection
           h2.subsection-title News
 
