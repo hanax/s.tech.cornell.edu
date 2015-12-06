@@ -10,6 +10,7 @@ $(() => {
     if ($("body").scrollTop() > windowHeight / 2) {
       $(".header-stick").fadeIn("slow");
     } else {
+      $(".menu-dropdown").fadeOut("fast");
       $(".header-stick").fadeOut("slow");
     }
   });
@@ -21,20 +22,20 @@ $(() => {
   $("body").click((e) => {
     const t = $(e.target);
     if (!t.closest(".menu").length && !t.closest(".menu-dropdown").length) {
-      console.log('yo')
       $(".menu-dropdown").fadeOut("fast");
     }
   });
 
   // Smooth Scrolling
-  $('a[href*=#]:not([href=#])').click(() => {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
+  $('a[href*=#]:not([href=#])').click(function(){
+    if (window.location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && window.location.hostname == this.hostname) {
+      let target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top
         }, 700);
+        $(".menu-dropdown").fadeOut("fast");
         return false;
       }
     }

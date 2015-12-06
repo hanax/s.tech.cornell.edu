@@ -3,12 +3,22 @@ var marked = require('marked');
 var publications = [
   {
     title: 'paper title',
-    image: 'http://lorempixel.com/g/400/400/cats/1/',
+    image: 'http://lorempixel.com/g/200/150/cats/1/',
     link: '#'
   },
   {
     title: 'paper title',
-    image: 'http://lorempixel.com/g/400/400/cats/2/',
+    image: 'http://lorempixel.com/g/200/150/cats/2/',
+    link: '#'
+  },
+  {
+    title: 'paper title',
+    image: 'http://lorempixel.com/g/200/150/cats/3/',
+    link: '#'
+  },
+  {
+    title: 'paper title',
+    image: 'http://lorempixel.com/g/200/150/cats/4/',
     link: '#'
   },
 ];

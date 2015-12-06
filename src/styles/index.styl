@@ -20,7 +20,6 @@ body
   font-family Lato, sans-serif
   color rgb(60,60,60)
   background-color #fff
-  transition all .7s
   width 100vw
 
 a
@@ -41,8 +40,13 @@ a
   left 0
   overflow hidden
   z-index -100
+  @media screen and (max-width: 900px)
+    background-image url('/assets/bg_video_fallback.jpg')
+    background-size cover
 
 .fullscreen-bg-video
+  @media screen and (max-width: 900px)
+    display none
   position absolute
   top 0
   left 0
@@ -120,7 +124,7 @@ a
     margin-left auto
     margin-right auto
     background-color #fff
-    padding 20px 20px
+    padding 25px 25px
     border-radius 2px
     
   .subsection-title
