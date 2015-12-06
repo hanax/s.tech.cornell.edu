@@ -8,11 +8,9 @@ $(() => {
 
   $(window).scroll(() => {
     if ($("body").scrollTop() > windowHeight / 2) {
-      $(".header").addClass("stick");
+      $(".header-stick").fadeIn("slow");
     } else {
-      $(".header").removeClass("stick");
-      $(".menu").fadeOut("fast");
-      $(".menu-dropdown").fadeOut("fast");
+      $(".header-stick").fadeOut("slow");
     }
   });
 

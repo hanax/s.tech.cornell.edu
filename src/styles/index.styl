@@ -1,25 +1,37 @@
-@import 'nib'
+@import 'nib';
 @import './font-awesome.css';
 @import './people.styl';
 @import './projects.styl';
+@import './publications.styl';
 
 *
   box-sizing border-box
+
+@font-face
+  font-family Cassannet
+  src url('/assets/Cassannet.otf')
+
+@font-face
+  font-family CassannetBold
+  src url('/assets/Cassannet Bold.otf')
 
 body
   font-size 16px
   font-family Lato, sans-serif
   color rgb(60,60,60)
   background-color #fff
+  transition all .7s
+  width 100vw
 
 a
   text-decoration none
   outline 0
   color rgb(255,255,255)
+  transition all .7s
   &, &:active, &:focus
     outline none
   &:hover
-    color rgb(255,255,255,.8)
+    color rgba(255,255,255,.8)
 
 .fullscreen-bg
   position fixed
@@ -46,30 +58,55 @@ a
 .slide
   width 100%
   margin-bottom 80px
+  .title
+    font-family Cassannet, sans-serif
+    text-transform capitalize
+    font-size 45px
+    font-weight 400
+    text-shadow 0 1px 0 rgba(0,0,0,.8)
   .header
     position absolute
     text-align center
     top 50%
     left 50%
+    @media screen and (max-width: 900px)
+      width 90%
     width 60%
     transform translate(-50%, -50%)
     color #fff
-    -webkit-transition all .7s
-    .title
-      font-size 35px
-      font-wight 400
-      text-shadow 0 1px 0 rgba(0,0,0,.8)
     .desc
       font-size 20px
-      font-wight 300
+      font-weight 400
       color rgba(255,255,255,.8)
+  .header-stick
+    display none
+    position fixed
+    text-align left
+    left 0
+    top 0
+    background linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0))
+    width 100vw
+    color #fff
+    .title
+      float left
+      padding-left 5%
+      font-size 20px
     .menu
-      display none
+      float right
+      padding-right 5%
+      display inline-block
+      line-height 64px
+      text-shadow 0 1px 0 rgba(0,0,0,.8)
+      &:hover
+        cursor pointer
     ul.menu-dropdown
       position fixed
       display none
       top 50px
-      right 0
+      right 5%
+      @media screen and (max-width: 900px)
+        width 90vw
+        left 5vw
       background-color rgba(0,0,0,.5)
       width 200px
       color #fff
@@ -77,27 +114,6 @@ a
       list-style-type none
       li
         line-height 40px
-    &.stick
-      position fixed
-      text-align left
-      top 20px
-      left 0
-      transform translate(0, 0)
-      width 100vw
-      .title
-        float left
-        padding-left 5%
-        font-size 20px
-      .desc
-        display none
-      .menu
-        float right
-        padding-right 5%
-        display inline-block
-        line-height 64px
-        text-shadow 0 1px 0 rgba(0,0,0,.8)
-        &:hover
-          cursor pointer
   .card
     width 90%
     min-height 90%
