@@ -28,8 +28,13 @@ html
       .header
         p.title Social Technologies Lab
         p.desc We design, build, and study systems centered around understanding how people interact with one another in virtual and physical spaces
+        .menu
+          span.fa.fa-bars
+        ul.menu-dropdown
+          li: a(href='#about'): p Who We Are
+          li: a(href='#publications'): p Publications
 
-    .slide
+    .slide#about
       .card
         .subsection
           h2.subsection-title About Us
@@ -67,9 +72,9 @@ html
         .subsection
           h2.subsection-title News
 
-    .slide
+    .slide#publications
       .card
-        p publications
+        h2.subsection-title Publications
         ul: each p in publications
           li
             img(src='#{p.image}')

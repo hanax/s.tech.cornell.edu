@@ -15,9 +15,11 @@ body
 a
   text-decoration none
   outline 0
-  color rgb(60,60,60)
+  color rgb(255,255,255)
   &, &:active, &:focus
     outline none
+  &:hover
+    color rgb(255,255,255,.8)
 
 .fullscreen-bg
   position fixed
@@ -43,7 +45,7 @@ a
 
 .slide
   width 100%
-  
+  margin-bottom 80px
   .header
     position absolute
     text-align center
@@ -52,21 +54,49 @@ a
     width 60%
     transform translate(-50%, -50%)
     color #fff
+    -webkit-transition all .7s
     .title
-      font-size 30px
+      font-size 35px
+      font-wight 400
+      text-shadow 0 1px 0 rgba(0,0,0,.8)
     .desc
       font-size 20px
+      font-wight 300
+      color rgba(255,255,255,.8)
+    .menu
+      display none
+    ul.menu-dropdown
+      position fixed
+      display none
+      top 50px
+      right 0
+      background-color rgba(0,0,0,.5)
+      width 200px
+      color #fff
+      border-radius 3px
+      list-style-type none
+      li
+        line-height 40px
     &.stick
       position fixed
       text-align left
-      top 5%
+      top 20px
       left 5%
+      right 5%
+      width 90%
       transform translate(0, 0)
-      -webkit-transition all 1s
       .title
+        float left
         font-size 20px
       .desc
         display none
+      .menu
+        float right
+        display inline-block
+        line-height 64px
+        text-shadow 0 1px 0 rgba(0,0,0,.8)
+        &:hover
+          cursor pointer
   .card
     width 90%
     min-height 90%
@@ -74,6 +104,7 @@ a
     margin-right auto
     background-color #fff
     padding 20px 20px
+    border-radius 2px
     
   .subsection-title
     color theme-blue
