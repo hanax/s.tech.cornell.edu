@@ -35,6 +35,7 @@ html
         ul.menu-dropdown
           li: a(href='#about'): p Who We Are
           li: a(href='#publications'): p Publications
+          li: a(href='#Contact'): p Contact
         
 
     .slide#about
@@ -81,5 +82,8 @@ html
         ul: each p in publications
           li
             img(src='#{p.image}')
+            span= p.title
+            span.divide
             a(href=p.link)
-              p= p.title
+              span.fa.fa-file
+              span PDF

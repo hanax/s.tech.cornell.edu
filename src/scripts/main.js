@@ -4,14 +4,14 @@ import '../styles/index.styl';
 $(() => {
   const windowHeight = $(window).height();
   const windowWidth = $(window).width();
-  $('.slide').css("min-height", windowHeight);
+  // $('.slide').css("min-height", windowHeight);
 
   $(window).scroll(() => {
     if ($("body").scrollTop() > windowHeight / 2) {
-      $(".header-stick").fadeIn("slow");
+      $(".header-stick .title").fadeIn("slow");
     } else {
       $(".menu-dropdown").fadeOut("fast");
-      $(".header-stick").fadeOut("slow");
+      $(".header-stick .title").fadeOut("slow");
     }
   });
 

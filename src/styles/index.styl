@@ -61,6 +61,7 @@ a
 
 .slide
   width 100%
+  min-height 100vh
   margin-bottom 80px
   .title
     font-family Cassannet, sans-serif
@@ -84,24 +85,26 @@ a
       font-weight 400
       color rgba(255,255,255,.8)
   .header-stick
-    display none
+    display block
     position fixed
     text-align left
     left 0
     top 0
-    background linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,0))
+    background linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0))
     width 100vw
     color #fff
     .title
+      display none
       float left
       padding-left 5%
-      font-size 20px
+      font-size 25px
     .menu
       float right
       padding-right 5%
       display inline-block
-      line-height 64px
+      line-height 70px
       text-shadow 0 1px 0 rgba(0,0,0,.8)
+      font-size 20px
       &:hover
         cursor pointer
     ul.menu-dropdown
