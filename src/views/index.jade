@@ -82,8 +82,7 @@ html
         ul: each p in publications
           li
             img(src='#{p.image}')
-            span= p.title
-            span.divide
+            p= p.title
             a(href=p.link)
               span.fa.fa-file
               span PDF

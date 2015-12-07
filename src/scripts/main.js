@@ -4,7 +4,6 @@ import '../styles/index.styl';
 $(() => {
   const windowHeight = $(window).height();
   const windowWidth = $(window).width();
-  // $('.slide').css("min-height", windowHeight);
 
   $(window).scroll(() => {
     if ($("body").scrollTop() > windowHeight / 2) {

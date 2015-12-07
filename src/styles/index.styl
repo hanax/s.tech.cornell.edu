@@ -26,7 +26,7 @@ a
   text-decoration none
   outline 0
   color rgb(255,255,255)
-  transition all .7s
+  transition all .5s
   &, &:active, &:focus
     outline none
   &:hover
@@ -122,14 +122,18 @@ a
       list-style-type none
       li
         line-height 40px
+        transition transform .3s
+        &:hover
+          transform translateX(2px)
   .card
     width 90%
     min-height 90%
     margin-left auto
     margin-right auto
-    background-color #fff
+    background-color rgba(255, 255, 255, .95)
     padding 25px 25px
     border-radius 2px
+    box-shadow 0 0 25px rgba(0,0,0,.42)
     
   .subsection-title
     color theme-blue
