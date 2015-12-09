@@ -39,4 +39,30 @@ $(() => {
       }
     }
   });
+
+  // Initialize Map
+  var initializeMap = () => {
+    var cornellTechLatLng = {lat: 40.740918, lng: -74.0043697};
+    var mapCanvas = document.getElementById('map');
+    var mapOptions = {
+      center: cornellTechLatLng,
+      zoom: 14,
+      mapTypeControlOptions: {
+        mapTypeIds: [google.maps.MapTypeId.ROADMAP]
+      },
+      disableDefaultUI: true,
+      scaleControl: true,
+      zoomControl: true,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+    var marker = new google.maps.Marker({
+      position: cornellTechLatLng,
+      map: map,
+      title: 'Cornell Tech'
+    });
+  }
+
+   google.maps.event.addDomListener(window, 'load', initializeMap);
 });
