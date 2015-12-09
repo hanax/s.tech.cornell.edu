@@ -1,23 +1,21 @@
 @import './colors.styl';
 
 #project-list
+  list-style-type none
   .project
-  	background-color red
-  	display inline-block
-  	width 90%
-  	height 300px
-  	
-  	
-    img
-      width 100px
-      height 100px
-      display inline-block
+    width 90%
+    padding 0
+    margin-bottom 20px
+    
+    .project-img-box, .project-info
       vertical-align top
+      display inline-block
       
-    // .project-info
+    .project-img-box > img
+      height 100px
+      width 100px
+      
     .project-info
-    	background-color red
-    	display inline-block
-    	vertical-align top
-	    .project-link
-	    	color theme-blue
+      width 100%
+      
+      

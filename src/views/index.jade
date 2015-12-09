@@ -69,10 +69,11 @@ html
           .subsection-content
             ul#project-list: each p in projects
               li.project
-                img(src='#{p.image}')
+                .project-img-box
+                  img(src='#{p.image}')
                 .project-info
                   h3.project-title= p.title
-                  p.project-description hahaha
+                  p.project-description= p.desc
                   a.project-link(href='#{p.link}') pdf
 
         .subsection
