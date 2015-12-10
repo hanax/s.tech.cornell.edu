@@ -12,6 +12,7 @@ module.exports = {
   output: {
     path: paths.dest,
     filename: 'main.js',
+    publicPath: '/assets/',
   },
 
   module: {

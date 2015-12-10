@@ -25,7 +25,7 @@ html
         poster='./assets/bg_video_fallback.jpg', 
         src='./assets/bg_video.webm')
 
-    .slide
+    .slide#intro
       .header
         p.title Social Technologies Lab
         p.desc We design, build, and study systems centered around understanding how people interact with one another in virtual and physical spaces
@@ -48,7 +48,25 @@ html
               img(src="http://placehold.it/360x200", alt="")
               figcaption We design, build, and study systems centered around understanding how people interact with one another in virtual and physical spaces.
 
-            p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae autem officia odio perspiciatis dolorum temporibus ducimus, nostrum quisquam quos soluta quo adipisci pariatur molestias accusantium tempora asperiores obcaecati consequuntur eiu
+            p The Social Technologies Lab designs, builds, and studies systems that support social interactions in online and physical spaces. We utilize a variety of methods from mining data on social media to conducting controlled experiments to interviewing users. Our work aims to understand the significance of people’s digital traces and to leverage this information for positive social good.
+            p
+              | We are the 
+              a(href='http://tech.cornell.edu/jacobs-technion-cornell-institute/overview') Jacobs Institute
+              | ’s Connective Media hub at 
+              a(href='http://tech.cornell.edu/') Cornell Tech
+              | . Part of our research is conducted within the 
+              a(href='https://cx.jacobs.cornell.edu/') Connected Experiences Lab
+              | . If you are interested in working with us, please get in touch by contacting us below!
+
+          .subsection#subsection-news
+            h2.subsection-title News
+            .subsection-content
+              ul#news-list: each n in news
+                li.news
+                  .project-info
+                    p
+                      span.fa.fa-newspaper-o
+                      span.news-title!= n.title
 
         .subsection#subsection-people
           h2.subsection-title People
@@ -70,26 +88,20 @@ html
             .subsection-content
               ul#project-list: each p in projects
                 li.project
-                  .project-img-box
-                    img(src='#{p.image}')
+                  .project-img-box(style='background-image: url(#{p.image})')
                   .project-info
                     h3.project-title= p.title
-                    p.project-description= p.desc
+                    p.project-description!= p.desc
                     a.project-link(href=p.link)
                       span.fa.fa-file
                       span PDF
-
-          .subsection#subsection-news
-            h2.subsection-title News
-            .subsection-content
-              p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nam error eos fugiat perferendis recusandae quibusdam et rerum nisi repellendus modi iure in assumenda optio, dolorem debitis praesentium. Error rem at impedit nisi veritatis sunt omnis, velit suscipit ex iusto officia quo. Rem laboriosam fugiat dolore officiis corrupti explicabo totam officia, distinctio, voluptatum nihil dicta blanditiis fuga atque delectus nobis libero et odio quis magnam ea ullam! Porro expedita recusandae delectus nostrum provident, consectetur perferendis voluptatibus odio mollitia, blanditiis, doloribus nam inventore quia ducimus exercitationem veniam eveniet quasi libero, tempore voluptate vitae in illo. Voluptatibus, cumque non perspiciatis iste, quisquam, sed quidem ab fugiat maiores fugit natus incidunt amet vero ex praesentium laudantium consequuntur voluptatum libero ullam nisi deleniti dignissimos.
 
     .slide#publications
       .card
         h2.subsection-title Publications
         ul: each p in publications
           li
-            img(src='#{p.image}')
+            .image(style='background-image: url(#{p.image})')
             p= p.title
             a(href=p.link)
               span.fa.fa-file
@@ -98,35 +110,35 @@ html
     .slide#contact
       .card
         h2.subsection-title Contact
-        #contact-twitter
-          a(href="https://www.twitter.com/STechCornell" style="color: black; font-size: 16px; font-weight: bold")
-              span.fa.fa-twitter
-              span Follow Us On Twitter
 
-        #contact-mailing-list
-          link(rel="stylesheet", href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" type="text/css")
-          
-          style(type=text/css) #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;}
-          #mc_embed_signup
-            form(action="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=f1cff316c0" method="post" iid="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate)
-              #mc_embed_signup_scroll
-              label(for="mce-EMAIL")
-                span.fa.fa-envelope-o
-                span Join Our Mailing List
-              input(type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required)
-              div(style="position: absolute; left: -5000px;" aria-hidden="true")
-                input(type="text" name="b_29fc6ecc44ebe11b0169accfe_f1cff316c0" tabindex="-1" value="")
-              .clear
-                input(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button")
+        .contact-block#contact-block-left
+
+          #contact-mailing-list
+            #mc_embed_signup
+              form(action="//nyc.us12.list-manage.com/subscribe/post?u=29fc6ecc44ebe11b0169accfe&amp;id=f1cff316c0" method="post" iid="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate)
+                #mc_embed_signup_scroll
+                label(for="mce-EMAIL")
+                  span.fa.fa-envelope-o
+                  span Join Our Mailing List
+                input(type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required)
+                div(style="position: absolute; left: -5000px;" aria-hidden="true")
+                  input(type="text" name="b_29fc6ecc44ebe11b0169accfe_f1cff316c0" tabindex="-1" value="")
+                .clear
+                  input(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button")
+
+          #contact-twitter
+            a(href="https://www.twitter.com/STechCornell")
+                span.fa.fa-twitter
+                span Follow Us On Twitter
 
           //- form
           //-   input(type="text")
           //-   input(type="submit")
-
-        #contact-location
-          #map
-          p We're located at Cornell Tech. Come by and say hi!
-          address 111 8th Ave<br>Suite #1202<br>New York, NY
+        .contact-block#contact-block-right
+          #contact-location
+            #map
+            p We're located at Cornell Tech. Come by and say hi!
+            address 111 8th Ave<br>Suite #1202<br>New York, NY
 
           
 

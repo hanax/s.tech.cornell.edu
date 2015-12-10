@@ -27,11 +27,15 @@ a
   text-decoration none
   outline 0
   color rgb(255,255,255)
-  transition all .5s
+  transition all .3s
   &, &:active, &:focus
     outline none
   &:hover
     color rgba(255,255,255,.8)
+
+ul
+  padding 0
+  list-style-type none
 
 .fullscreen-bg
   position fixed
@@ -62,11 +66,10 @@ a
 
 .slide
   width 100%
-  min-height 100vh
   margin-bottom 80px
   .title
     font-family Cassannet, sans-serif
-    text-transform capitalize
+    font-variant small-caps
     font-size 60px
     font-weight 400
     text-shadow 0 1px 0 rgba(0,0,0,.8)
@@ -120,7 +123,6 @@ a
       width 200px
       color #fff
       border-radius 3px
-      list-style-type none
       li
         line-height 40px
         transition transform .3s
@@ -135,16 +137,39 @@ a
     padding 25px 25px
     border-radius 2px
     box-shadow 0 0 25px rgba(0,0,0,.42)
+    overflow hidden
+    a
+      color theme-blue
+      &:hover
+        color theme-blue-hover
     
   .subsection-title
     color theme-blue
+    font-variant small-caps
+
+  .subsection-content
+    margin-top 30px
+    font-size 14px
+
+  #subsection-news
+    @media (min-width: 1200px)
+      border-top 2px solid theme-blue
+      margin-top 50px
+    font-size 13px
+    .fa
+      color theme-blue
   
   figure
     img
+      padding-bottom 10px
       width 100%  
 
     figcaption
       color theme-blue
+      font-style italic
+
+#intro
+  min-height 100vh
 
 .fa
   margin-right 8px

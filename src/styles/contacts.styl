@@ -1,13 +1,44 @@
 @import './colors.styl';
 
 #contact-mailing-list
-  #contact-twitter span
-    color black
   form
     padding-left 0 !important
-    input[type=submit]
-      background-color theme-blue
-      
+
+#contact 
+  .contact-block
+    margin-top 20px
+    float left
+    #contact-mailing-list
+      input
+        display block
+        padding 10px 5px
+        border 0
+        width 100%
+        margin-bottom 15px
+      #mce-EMAIL
+        margin-top 15px
+        &:focus
+          outline none
+      input.button
+        color #fff
+        transition all .5s
+        background-color theme-blue
+        letter-spacing .5px
+        &:hover
+          background-color theme-blue-hover
+    #contact-twitter
+      margin-top 30px
+  #contact-block-left
+    width 33%
+    padding-right 30px
+    @media screen and (max-width: 900px)
+      padding 0
+      width 100%
+  #contact-block-right
+    width 66%
+    @media screen and (max-width: 900px)
+      width 100%
+
 #map
   width 100%
   height 30%
