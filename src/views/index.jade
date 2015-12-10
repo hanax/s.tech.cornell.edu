@@ -45,7 +45,7 @@ html
           h2.subsection-title About Us
           .subsection-content
             figure
-              img(src="http://placehold.it/360x200", alt="")
+              img(src="./assets/img/top.jpg", alt="")
               figcaption We design, build, and study systems centered around understanding how people interact with one another in virtual and physical spaces.
 
             p The Social Technologies Lab designs, builds, and studies systems that support social interactions in online and physical spaces. We utilize a variety of methods from mining data on social media to conducting controlled experiments to interviewing users. Our work aims to understand the significance of people’s digital traces and to leverage this information for positive social good.
@@ -66,6 +66,7 @@ html
                   .project-info
                     p
                       span.fa.fa-newspaper-o
+                      span= n.date
                       span.news-title!= n.title
 
         .subsection#subsection-people
@@ -75,7 +76,7 @@ html
               li.person
                 img(src='#{p.image}')
                 .person-info
-                  a(href=p.link)
+                  a(href=p.link, target='_blank')
                     h3.person-name= p.name
                   p.person-title= p.title
                 .person-contact
@@ -92,9 +93,9 @@ html
                   .project-info
                     h3.project-title= p.title
                     p.project-description!= p.desc
-                    a.project-link(href=p.link)
-                      span.fa.fa-file
-                      span PDF
+                    //- a.project-link(href=p.link)
+                    //-   span.fa.fa-file
+                    //-   span PDF
 
     .slide#publications
       .card
@@ -103,7 +104,7 @@ html
           li
             .image(style='background-image: url(#{p.image})')
             p= p.title
-            a(href=p.link)
+            a(href=p.link, target='_blank')
               span.fa.fa-file
               span PDF
 
@@ -134,11 +135,14 @@ html
           //- form
           //-   input(type="text")
           //-   input(type="submit")
-        .contact-block#contact-block-right
+
+        .contact-block#contact-block-middle
           #contact-location
             #map
-            p We're located at Cornell Tech. Come by and say hi!
-            address 111 8th Ave<br>Suite #1202<br>New York, NY
+
+        .contact-block#contact-block-right
+          p We're located at Cornell Tech. Come by and say hi!
+          address 111 8th Ave<br>Suite #1202<br>New York, NY
 
           
 

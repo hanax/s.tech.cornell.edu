@@ -60,15 +60,15 @@ var people = [
   {
     name: 'Lousie Barkhus',
     title: 'Visiting Professor',
-    link: '#',
-    image: 'http://lorempixel.com/g/400/400/cats/4/',
+    link: 'http://www.barkhu.us/',
+    image: '/assets/img/people/profile_pic_louise.jpg',
     email: 'barkhuus@dsv.su.se',
     twitter: ''
   },
   {
     name: 'Xiao Ma',
     title: 'PhD Student',
-    link: '#',
+    link: 'http://maxiao.info/',
     image: '/assets/img/people/profile_pic_xiao.jpg',
     email: 'xiao@jacobs.cornell.edu',
     twitter: 'infoxiao'
@@ -76,7 +76,7 @@ var people = [
   {
     name: 'Nir Grinberg',
     title: 'Post-doc',
-    link: '#',
+    link: 'http://www.nirg.net/',
     image: '/assets/img/people/profile_pic_nir.jpg',
     email: 'rdm257@cornell.edu',
     twitter: 'rossdmchlachlan'
@@ -84,15 +84,15 @@ var people = [
   {
     name: 'Mor Naaman',
     title: 'Associate Professor',
-    link: '#',
-    image: 'http://lorempixel.com/g/400/400/cats/4/',
+    link: 'https://people.jacobs.cornell.edu/mor/',
+    image: '/assets/img/people/profile_pic_mor.jpg',
     email: 'mor@jacobs.cornell.edu',
     twitter: 'infomor'
   },
   {
     name: 'Emily Sun',
     title: 'PhD Student',
-    link: '#',
+    link: 'http://emilywsun.com',
     image: '/assets/img/people/profile_pic_emily.jpg',
     email: 'emily@jacobs.cornell.edu',
     twitter: ''
@@ -100,7 +100,7 @@ var people = [
   {
     name: 'Ross McLachlan',
     title: 'Post-doc',
-    link: '#',
+    link: 'http://www.rossmclachlan.co.uk/',
     image: '/assets/img/people/profile_pic_ross.jpg',
     email: 'rdm257@cornell.edu',
     twitter: 'rossdmcLachlan'
@@ -108,7 +108,7 @@ var people = [
   {
     name: 'Minsu Park',
     title: 'PhD Student',
-    link: '#',
+    link: 'https://sites.google.com/site/mansumansu/',
     image: '/assets/img/people/profile_pic_minsu.png',
     email: 'minsu@jacobs.cornell.edu',
     twitter: 'mansumansu'
@@ -119,13 +119,16 @@ var people = [
 
 var news = [
   {
-    title: 'Our lab is hiring PhD students! Check out the [Cornell Information Science site](http://infosci.cornell.edu/academics/phd/how-apply) on how to apply to work with us next year.'
+    title: 'Our lab is hiring PhD students! Check out the [Cornell Information Science site](http://infosci.cornell.edu/academics/phd/how-apply) on how to apply to work with us next year.',
+    date: '12/2015'
   },
   {
-    title: 'Mor recently gave two different workshop keynotes at [IEEE International Conference on Data Mining](http://icdm2015.stonybrook.edu/) (ICDM 2015) in Atlantic City on November 14-17.'
+    title: 'Mor recently gave two different workshop keynotes at [IEEE International Conference on Data Mining](http://icdm2015.stonybrook.edu/) (ICDM 2015) in Atlantic City on November 14-17.',
+    date: '11/2015'
   },
   {
-    title: 'Thank you to AOL for the continued support and collaboration! We are excited about the [launch of the Cx Lab](http://blog.aol.com/2015/09/15/aol-cornell-tech-connected-experiences-cx-lab-launches/).'
+    title: 'Thank you to AOL for the continued support and collaboration! We are excited about the [launch of the Cx Lab](http://blog.aol.com/2015/09/15/aol-cornell-tech-connected-experiences-cx-lab-launches/).',
+    date: '9/2015'
   },
 ].map(function(n) {
   n.title = marked(n.title);
