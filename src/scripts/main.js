@@ -46,7 +46,7 @@ $(() => {
     var mapCanvas = document.getElementById('map');
     var mapOptions = {
       center: cornellTechLatLng,
-      zoom: 14,
+      zoom: 13,
       mapTypeControlOptions: {
         mapTypeIds: [google.maps.MapTypeId.ROADMAP]
       },

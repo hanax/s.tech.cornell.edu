@@ -3,19 +3,30 @@
 #project-list
   list-style-type none
   .project
-    width 90%
+    width 100%
     padding 0
-    margin-bottom 20px
+    margin-bottom 40px
     
     .project-img-box, .project-info
       vertical-align top
       display inline-block
       
-    .project-img-box > img
+    .project-img-box
       height 100px
       width 100px
       
+      img
+        height 100%
+        width 100%
+      
     .project-info
-      width 100%
+      width calc(100% - 200px)
+      padding 0 0 0 10px
+      h3.project-title
+        margin 0
+      a.project-link
+        color theme-blue
+        &:hover
+          text-decoration underline
       
       

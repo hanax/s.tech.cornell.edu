@@ -3,6 +3,7 @@
 @import './people.styl';
 @import './projects.styl';
 @import './publications.styl';
+@import './contacts.styl';
 
 *
   box-sizing border-box
@@ -145,7 +146,24 @@ a
     figcaption
       color theme-blue
 
-#map
-  width 100%
-  height 200px
-      
+.fa
+  margin-right 8px
+  
+@media (min-width: 1200px)
+  #subsection-about-us, #subsection-people, #project-news-box
+    display inline-block
+    vertical-align top
+    padding 0 20px
+  #subsection-about-us
+    width 30%
+  #subsection-people
+    width 30%
+  #project-news-box
+    width 40%
+    #subsection-projects, #subsection-news
+      width 100%
+
+@media (max-width: 1199px)
+  #subsection-about-us, #subsection-people, #subsection-projects, #subsection-news
+    display block
+    width 100%
