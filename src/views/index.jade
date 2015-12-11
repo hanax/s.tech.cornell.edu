@@ -81,7 +81,8 @@ html
                   p.person-title= p.title
                 .person-contact
                   a.person-email(href='mailto:#{p.email}')= p.email
-                  a.person-twitter(href='https://twitter.com/#{p.twitter}')= p.twitter
+                  if p.twitter
+                    a.person-twitter(href='https://twitter.com/#{p.twitter}') @#{p.twitter}
         
         #project-news-box    
           .subsection#subsection-projects

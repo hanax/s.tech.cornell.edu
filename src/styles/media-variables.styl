@@ -1,0 +1,72 @@
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+$screen-xs ?=                   480px
+$screen-phone ?=                $screen-xs
+
+// Small screen / tablet
+$screen-sm ?=                   768px
+$screen-tablet ?=               $screen-sm
+
+// Medium screen / desktop
+$screen-md ?=                   992px
+$screen-desktop ?=              $screen-md
+
+// Large screen / wide desktop
+$screen-lg ?=                   1200px
+$screen-lg-desktop ?=           $screen-lg
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max ?=               ($screen-sm - 1)
+$screen-sm-max ?=               ($screen-md - 1)
+$screen-md-max ?=               ($screen-lg - 1)
+
+
+// Variables need to be passed after @media declarations
+// Media Helpers
+
+minw(w)
+  '(min-width:' + w +')'
+
+maxw(w)
+  '(max-width:' + w +')'
+
+min-max(min-w, max-w)
+  minw(min-w) +  ' and ' + maxw(max-w)
+
+screen-min(w)
+  'screen and ' + minw(w)
+
+screen-max(w)
+  'screen and ' + maxw(w)
+
+screen-min-max(min-w, max-w)
+  'screen and ' + min-max(min-w, max-w)
+
+
+// Commonly used @media variables
+// Min
+$media-min-phone ?= minw($screen-xs)
+$media-min-tablet ?= minw($screen-sm)
+$media-min-desktop ?= minw($screen-md)
+$media-min-lg-desktop ?= minw($screen-lg)
+$media-min-grid-float-breakpoint ?= minw($grid-float-breakpoint)
+
+// Max
+$media-max-sm ?= maxw($screen-sm)
+
+// Max -1
+$media-max-phone ?= maxw($screen-xs-max)
+$media-max-tablet ?= maxw($screen-sm-max)
+$media-max-desktop ?= maxw($screen-md-max)
+
+// Screen and min
+$media-screen-min-phone ?= screen-min($screen-xs)
+$media-screen-min-tablet ?= screen-min($screen-sm)
+$media-screen-min-desktop ?= screen-min($screen-md)
+$media-screen-min-lg-desktop ?= screen-min($screen-lg)
+
+// Min Max
+$media-tablet ?= min-max($screen-sm, $screen-sm-max)
+$media-desktop ?= min-max($screen-md, $screen-md-max)
