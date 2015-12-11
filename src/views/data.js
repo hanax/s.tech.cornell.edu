@@ -58,44 +58,12 @@ var projects = [
 
 var people = [
   {
-    name: 'Lousie Barkhus',
-    title: 'Visiting Professor',
-    link: 'http://www.barkhu.us/',
-    image: '/assets/img/people/profile_pic_louise.jpg',
-    email: 'barkhuus@dsv.su.se',
-    twitter: 'barkhuus'
-  },
-  {
-    name: 'Xiao Ma',
-    title: 'PhD Student',
-    link: 'http://maxiao.info/',
-    image: '/assets/img/people/profile_pic_xiao.jpg',
-    email: 'xiao@jacobs.cornell.edu',
-    twitter: 'infoxiao'
-  },
-  {
-    name: 'Nir Grinberg',
-    title: 'PhD Student',
-    link: 'http://www.nirg.net/',
-    image: '/assets/img/people/profile_pic_nir.jpg',
-    email: 'nir@cs.cornell.edu',
-    twitter: 'grinbergnir'
-  },
-  {
     name: 'Mor Naaman',
     title: 'Associate Professor',
     link: 'https://people.jacobs.cornell.edu/mor/',
     image: '/assets/img/people/profile_pic_mor.jpg',
     email: 'mor@jacobs.cornell.edu',
     twitter: 'infomor'
-  },
-  {
-    name: 'Emily Sun',
-    title: 'PhD Student',
-    link: 'http://emilywsun.com',
-    image: '/assets/img/people/profile_pic_emily.jpg',
-    email: 'emily@jacobs.cornell.edu',
-    twitter: ''
   },
   {
     name: 'Ross McLachlan',
@@ -106,16 +74,46 @@ var people = [
     twitter: 'rossdmcLachlan'
   },
   {
+    name: 'Nir Grinberg',
+    title: 'PhD Student',
+    link: 'http://www.nirg.net/',
+    image: '/assets/img/people/profile_pic_nir.jpg',
+    email: 'nir@cs.cornell.edu',
+    twitter: 'grinbergnir'
+  },  
+  {
+    name: 'Xiao Ma',
+    title: 'PhD Student',
+    link: 'http://maxiao.info/',
+    image: '/assets/img/people/profile_pic_xiao.jpg',
+    email: 'xiao@jacobs.cornell.edu',
+    twitter: 'infoxiao'
+  },
+  {
     name: 'Minsu Park',
     title: 'PhD Student',
     link: 'https://sites.google.com/site/mansumansu/',
     image: '/assets/img/people/profile_pic_minsu.png',
     email: 'minsu@jacobs.cornell.edu',
     twitter: 'mansumansu'
+  },
+  {
+    name: 'Emily Sun',
+    title: 'PhD Student',
+    link: 'http://emilywsun.com',
+    image: '/assets/img/people/profile_pic_emily.jpg',
+    email: 'emily@jacobs.cornell.edu',
+    twitter: 'emilywsun'
+  },
+  {
+    name: 'Lousie Barkhus',
+    title: 'Visiting Professor',
+    link: 'http://www.barkhu.us/',
+    image: '/assets/img/people/profile_pic_louise.jpg',
+    email: 'barkhuus@dsv.su.se',
+    twitter: 'barkhuus'
   }
-].sort(function(p1, p2) {
-  return p1.name.split(' ')[1] > p2.name.split(' ')[1]
-});
+];
 
 var news = [
   {
