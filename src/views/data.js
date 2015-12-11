@@ -63,7 +63,7 @@ var people = [
     link: 'http://www.barkhu.us/',
     image: '/assets/img/people/profile_pic_louise.jpg',
     email: 'barkhuus@dsv.su.se',
-    twitter: ''
+    twitter: 'barkhuus'
   },
   {
     name: 'Xiao Ma',
@@ -75,11 +75,11 @@ var people = [
   },
   {
     name: 'Nir Grinberg',
-    title: 'Post-doc',
+    title: 'PhD Student',
     link: 'http://www.nirg.net/',
     image: '/assets/img/people/profile_pic_nir.jpg',
-    email: 'rdm257@cornell.edu',
-    twitter: 'rossdmchlachlan'
+    email: 'nir@cs.cornell.edu',
+    twitter: 'grinbergnir'
   },
   {
     name: 'Mor Naaman',
