@@ -110,8 +110,16 @@ var people = [
     title: 'Visiting Professor',
     link: 'http://www.barkhu.us/',
     image: '/assets/img/people/profile_pic_louise.jpg',
-    email: 'barkhuus@dsv.su.se',
+    email: 'barkhuus@cornell.edu',
     twitter: 'barkhuus'
+  },
+  {
+    name: 'Matthew Salganik',
+    title: 'Visiting Professor',
+    link: 'http://www.princeton.edu/~mjs3/',
+    image: '/assets/img/people/profile_pic_matthew.jpg',
+    email: 'mjs99@cornell.edu',
+    twitter: 'msalganik'
   }
 ];
 
