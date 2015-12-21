@@ -125,6 +125,10 @@ var people = [
 
 var news = [
   {
+    title: 'We had 4 papers accepted to CHI 2016 in San Jose! Congratulations to Xiao, Nir, Louise, and Mor!',
+    date: '12/2015'
+  },
+  {
     title: 'Our lab is hiring PhD students! Check out the [Cornell Information Science site](http://infosci.cornell.edu/academics/phd/how-apply) on how to apply to work with us next year.',
     date: '12/2015'
   },
