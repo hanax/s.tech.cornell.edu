@@ -136,10 +136,6 @@ var news = [
     title: 'Mor recently gave two different workshop keynotes at [IEEE International Conference on Data Mining](http://icdm2015.stonybrook.edu/) (ICDM 2015) in Atlantic City on November 14-17.',
     date: '11/2015'
   },
-  {
-    title: 'Thank you to AOL for the continued support and collaboration! We are excited about the [launch of the Cx Lab](http://blog.aol.com/2015/09/15/aol-cornell-tech-connected-experiences-cx-lab-launches/).',
-    date: '9/2015'
-  },
 ].map(function(n) {
   n.title = marked(n.title);
   return n;
