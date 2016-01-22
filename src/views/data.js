@@ -106,7 +106,7 @@ var people = [
     twitter: 'emilywsun'
   },
   {
-    name: 'Lousie Barkhus',
+    name: 'Louise Barkhuus',
     title: 'Visiting Professor',
     link: 'http://www.barkhu.us/',
     image: '/assets/img/people/profile_pic_louise.jpg',
