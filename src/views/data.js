@@ -2,6 +2,11 @@ var marked = require('marked');
 
 var publications = [
   {
+    title: 'Nir Grinberg, P. Alex Dow, Lada A. Adamic, and Mor Naaman. Changes in Engagement Before and After Posting to Facebook. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2016), May 2015, San Jose, USA',
+    image: '/assets/img/publication/publication-08.png',
+    link: 'http://www.nirg.net/papers/contribution2016grinberg.pdf'
+  },
+  {
     title: 'Raz Schwarz, Mor Naaman, Rannie Teodoro. Editorial Algorithms: Using Social Media to Discover and Report Local News. In Proceedings, ACM International Conference on Web Logs and Social Media. (ICWSM 2015), May 2015, Cambridge, England',
     image: '/assets/img/publication/publication-01.png',
     link: 'https://people.jacobs.cornell.edu/mor/publications/thegoods/Schwartz_ICWSM2015_CityBeat.pdf'
