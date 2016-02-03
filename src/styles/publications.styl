@@ -13,19 +13,54 @@
     list-style-type none
     padding 20px 0 0 0
     margin-top 20px
-    li
-      width 30%
-      margin-right 5%
-      margin-bottom 3%
-      @media screen and (max-width: 900px)
+    #mobile
+      @media screen and (min-width: 900px)
+        display none
+      li
         width 100%
+        margin-bottom 20px
         margin-left auto
         margin-right auto
-      float left
-      .image
-        background-size cover
-        width 99%
-        height 150px
-        margin-bottom 10px
-      &:nth-child(3n)
-        margin-right 0
+        float left
+        .image
+          background-size cover
+          width 99%
+          height 150px
+          margin-bottom 10px
+    #desktop
+      @media screen and (max-width: 900px)
+        display none
+      li
+        width 100%
+        margin-bottom 30px
+        margin-left auto
+        margin-right auto
+        float left
+        .image
+          background-size cover
+          width 99%
+          height 260px
+        .column
+          float left
+          padding-right 20px
+        p
+          margin 0
+        #image
+          width 30%
+        #info
+          width 25%
+          #title
+            font-weight 400
+            font-size 18px
+            margin-bottom 10px
+          #author
+            font-weight 300
+            color rgb(130, 130, 130)
+            margin-bottom 30px
+          a
+            position relative
+            bottom 0
+        #abstract
+          width 45%
+          font-weight 300
+          text-align justify

@@ -118,12 +118,25 @@ html
       .card
         h2.subsection-title Publications
         ul: each p in publications
-          li
-            .image(style='background-image: url(#{p.image})')
-            p= p.title
-            a(href=p.link, target='_blank')
-              span.fa.fa-file
-              span PDF
+          #mobile
+            li
+              .image(style='background-image: url(#{p.image})')
+              p= p.mobileInfo
+              a(href=p.link, target='_blank')
+                span.fa.fa-file
+                span PDF
+          #desktop
+            li
+              .column#image
+                .image(style='background-image: url(#{p.image})')
+              .column#info
+                p#title= p.title
+                p#author= p.author
+                a(href=p.link, target='_blank')
+                  span.fa.fa-file
+                  span PDF
+              .column#abstract
+                p= p.abstract
 
     .slide#contact
       .card
