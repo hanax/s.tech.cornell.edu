@@ -7,8 +7,8 @@
   //   color theme-blue
   //   &:hover
   //     color theme-blue-hover
-  p
-    font-size 14px
+  // p
+    // font-size 14px
   ul
     list-style-type none
     padding 20px 0 0 0
@@ -39,16 +39,20 @@
         .image
           background-size cover
           width 99%
-          height 260px
+          height 220px
         .column
           float left
-          padding-right 20px
+          padding-right 5%
+        #abstract
+          padding-right 0
         p
           margin 0
         #image
           width 30%
         #info
           width 25%
+          position relative
+          min-height 220px
           #title
             font-weight 400
             font-size 18px
@@ -56,11 +60,12 @@
           #author
             font-weight 300
             color rgb(130, 130, 130)
-            margin-bottom 30px
           a
-            position relative
+            position absolute
             bottom 0
+            left 0
         #abstract
           width 45%
           font-weight 300
+          font-size 12px
           text-align justify
