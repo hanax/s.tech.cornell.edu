@@ -6,7 +6,8 @@ var publications = [
     title: 'Anonymity, Intimacy and Self-Disclosure in Social Media',
     author: 'Xiao Ma, Jeff Hancock, Mor Naaman',
     conference: 'CHI 2016',
-    image: '/assets/img/publication/publication-08.png',
+    image: '/assets/img/publication/publication-Anonymity.png',
+    video: '/assets/img/publication/publication-Anonymity.mp4',
     links: [['Dataset', 'https://github.com/sTechLab/SelfDisclosureItems'], 
             ['PDF', 'http://www.nirg.net/papers/contribution2016grinberg.pdf']],
     abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'

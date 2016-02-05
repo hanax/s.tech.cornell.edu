@@ -32,6 +32,9 @@ html
     script(src='./main.js')
     script(src='https://maps.googleapis.com/maps/api/js')
 
+    link(rel='stylesheet' href='./assets/venobox/venobox.css')
+    script(src='./assets/venobox/venobox.min.js')
+
   body
     .fullscreen-bg
       video.fullscreen-bg-video(
@@ -116,7 +119,7 @@ html
     .slide#publications
       .card
         h2.subsection-title Publications
-        ul: each p in publications
+        ul: each p, idx in publications
           #mobile
             li
               .image(style='background-image: url(#{p.image})')
@@ -127,7 +130,17 @@ html
           #desktop
             li
               .column#image
-                img(src=p.image)
+                if !p.video
+                  img(src=p.image)
+                else
+                  a(class='venobox_custom', data-type='inline', href='#'+'pub-video-'+idx)
+                    .pub-video-overlay
+                      span.fa.fa-play-circle
+                  img(src=p.image)
+                  div.pub-video(id='pub-video-'+idx)
+                    video(width='800', height='600', controls='')
+                      source(src=p.video, type='video/mp4')
+                      | Your browser does not support the video tag.
               .column.pub-info
                 p#title= p.title
                 p#author= p.author

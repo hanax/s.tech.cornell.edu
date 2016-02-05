@@ -33,6 +33,7 @@ $(() => {
 
   $("#desktop img").css("height", parseInt($("#desktop img").css("width"))/3*2);
   $(".pub-info").css("min-height", parseInt($("#desktop img").css("width"))/3*2);
+  $(".pub-video-overlay").css("line-height", parseInt($("#desktop img").css("width"))/3*2-4+"px");
 
   // Smooth Scrolling
   $('a[href*=#]:not([href=#])').click(function(){
@@ -48,6 +49,26 @@ $(() => {
       }
     }
   });
+
+
+  // Veno box
+  /* default settings */
+  $('.venobox').venobox(); 
+
+  /* custom settings */
+  $('.venobox_custom').venobox({
+      framewidth: '820px',        // default: ''
+      frameheight: '620px',       // default: ''
+      border: '0',             // default: '0'
+      bgcolor: '#fff',         // default: '#fff'
+      titleattr: 'video',    // default: 'title'
+      numeratio: true,            // default: false
+      infinigall: true            // default: false
+  });
+
+  /* auto-open #firstlink on page load */
+  $("#firstlink").venobox().trigger('click');
+
 
   // Initialize Map
   var initializeMap = () => {
