@@ -128,13 +128,15 @@ html
             li
               .column#image
                 img(src=p.image)
-              .column#info
+              .column.pub-info
                 p#title= p.title
                 p#author= p.author
                 p#conference= p.conference
-                a(href=p.link, target='_blank')
-                  span.fa.fa-file
-                  span PDF
+                .links
+                  each l in p.links
+                    a(href=l[1], target='_blank')
+                      span.fa.fa-file
+                      span= l[0]
               .column#abstract
                 p= p.abstract 
         .pub-overlay

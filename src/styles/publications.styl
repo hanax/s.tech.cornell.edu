@@ -66,10 +66,10 @@
           margin 0
         #image
           width 25%
-        #info
+        .pub-info
           width 32%
           position relative
-          min-height 200px
+          // min-height 100px
           #title
             font-weight 400
             font-size 18px
@@ -78,11 +78,17 @@
           #author, #conference
             font-weight 300
             color rgb(130, 130, 130)
+          #author
             margin-bottom 7px
-          a
+          #conference
+            margin-bottom 0
+          .links
             position absolute
             bottom 0
             left 0
+            a
+              display block
+              margin-top 10px
         #abstract
           width 30%
           font-weight 300

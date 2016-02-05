@@ -32,6 +32,7 @@ $(() => {
   });
 
   $("#desktop img").css("height", parseInt($("#desktop img").css("width"))/3*2);
+  $(".pub-info").css("min-height", parseInt($("#desktop img").css("width"))/3*2);
 
   // Smooth Scrolling
   $('a[href*=#]:not([href=#])').click(function(){
