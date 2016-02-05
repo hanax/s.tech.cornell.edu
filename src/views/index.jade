@@ -24,8 +24,7 @@ html
     meta(name="twitter:description" content="We design, build, and study systems that support ocial interactions in online and physical spaces.")
     meta(name="twitter:image" content="https://s.tech.cornell.edu/assets/img/top.jpg")
 
-    link(rel='stylesheet' href='//brick.a.ssl.fastly.net/Lato:300,300i,400,400i,700')
-    link(rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto+Condensed:300')
+    link(rel='stylesheet' href='//fonts.googleapis.com/css?family=Lato:700,400,300,400i')
 
     link(rel='apple-touch-icon shortcut icon image_src' href='./assets/favicon.ico')
 
@@ -128,15 +127,18 @@ html
           #desktop
             li
               .column#image
-                .image(style='background-image: url(#{p.image})')
+                img(src=p.image)
               .column#info
                 p#title= p.title
                 p#author= p.author
+                p#conference= p.conference
                 a(href=p.link, target='_blank')
                   span.fa.fa-file
                   span PDF
               .column#abstract
-                p= p.abstract
+                p= p.abstract 
+        .pub-overlay
+          span.fa.fa-chevron-down
 
     .slide#contact
       .card

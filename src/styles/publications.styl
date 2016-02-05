@@ -1,14 +1,31 @@
 @import './colors.styl';
 
 #publications
+  .pub-overlay
+    @media screen and (max-width: 900px)
+      display none
+    position absolute
+    width calc(100%+40px)
+    height 80px
+    background linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.4))
+    opacity .8
+    left -40px
+    bottom 0
+    padding-top 40px
+    text-align center
+    text-shadow 0 1px 0 rgba(0,0,0,.8)
+    font-size 22px
+    color #fff
+    cursor pointer
+    z-index 9
+    transition opacity .3s
+    &:hover
+      opacity 1
   .card
+    position relative
     overflow hidden
-  // a
-  //   color theme-blue
-  //   &:hover
-  //     color theme-blue-hover
-  // p
-    // font-size 14px
+    @media screen and (min-width: 900px)
+      height 620px
   ul
     list-style-type none
     padding 20px 0 0 0
@@ -32,40 +49,42 @@
         display none
       li
         width 100%
-        margin-bottom 30px
+        margin-bottom 40px
         margin-left auto
         margin-right auto
         float left
-        .image
-          background-size cover
+        img
           width 99%
-          height 220px
+          min-height 100px
+          border 2px solid theme-blue
         .column
           float left
-          padding-right 5%
+          margin-right 6%
         #abstract
-          padding-right 0
+          margin-right 0
         p
           margin 0
         #image
-          width 30%
-        #info
           width 25%
+        #info
+          width 32%
           position relative
-          min-height 220px
+          min-height 200px
           #title
             font-weight 400
             font-size 18px
             margin-bottom 10px
-          #author
+            text-transform uppercase
+          #author, #conference
             font-weight 300
             color rgb(130, 130, 130)
+            margin-bottom 7px
           a
             position absolute
             bottom 0
             left 0
         #abstract
-          width 45%
+          width 30%
           font-weight 300
           font-size 12px
           text-align justify

@@ -25,6 +25,14 @@ $(() => {
     }
   });
 
+  $(".pub-overlay").click(() => {
+    $("#publications .card").animate({
+      "height": $("#publications .card").get(0).scrollHeight
+    }, 500, () => {$(".pub-overlay").fadeOut("fast");});
+  });
+
+  $("#desktop img").css("height", parseInt($("#desktop img").css("width"))/3*2);
+
   // Smooth Scrolling
   $('a[href*=#]:not([href=#])').click(function(){
     if (window.location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && window.location.hostname == this.hostname) {
