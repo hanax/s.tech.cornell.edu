@@ -18,7 +18,7 @@ var publications = [
     title: 'Changes in Engagement Before and After Posting to Facebook',
     author: 'Nir Grinberg, P. Alex Dow, Lada A. Adamic, and Mor Naaman',
     conference: 'CHI 2016',
-    type: 'Full Paper',
+    type: 'Best Paper Honorable Mention',
     image: '/assets/img/publication/publication-08.png',
     links: [['PDF', 'http://www.nirg.net/papers/contribution2016grinberg.pdf']],
     abstract: 'The study identified a unique pattern of engagement that accompanies posting on Facebook. Using observational data analysis we show that after posting content, people visit the site more often, are more attentive to content from friends, and even interact more with friends content.'
@@ -182,16 +182,16 @@ var people = [
 
 var news = [
   {
+    title: 'Mor is an invited speaker at the [9th International Conference on Web Search and Data Mining](http://www.wsdm-conference.org/2016/invited-speakers.html#pe-naaman) (WSDM 2016) in San Francisco on February 25.',
+    date: '2/2016'
+  },
+  {
     title: 'We had 4 papers accepted to CHI 2016 in San Jose! Congratulations to Xiao, Nir, Louise, and Mor!',
     date: '12/2015'
   },
   {
     title: 'Our lab is hiring PhD students! Check out the [Cornell Information Science site](http://infosci.cornell.edu/academics/phd/how-apply) on how to apply to work with us next year.',
     date: '12/2015'
-  },
-  {
-    title: 'Mor recently gave two different workshop keynotes at [IEEE International Conference on Data Mining](http://icdm2015.stonybrook.edu/) (ICDM 2015) in Atlantic City on November 14-17.',
-    date: '11/2015'
   },
 ].map(function(n) {
   n.title = marked(n.title);
