@@ -6,21 +6,24 @@
       display none
     position absolute
     width calc(100%+40px)
-    height 80px
-    background linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.4))
-    opacity .8
+    height 60px
+    // background linear-gradient(rgba(0,0,0,0), rgba(255,255,255,.95))
+    background #fff
+    // opacity .9
+    box-shadow 0 0 15px rgba(0,0,0,.1)
     left -40px
     bottom 0
-    padding-top 40px
+    // padding-top 40px
     text-align center
-    text-shadow 0 1px 0 rgba(0,0,0,.8)
+    // text-shadow 0 1px 0 rgba(0,0,0,.8)
     font-size 22px
-    color #fff
+    line-height 60px
+    color theme-blue
     cursor pointer
     z-index 9
-    transition opacity .3s
+    transition all .3s
     &:hover
-      opacity 1
+      box-shadow 0 0 15px rgba(0,0,0,.25)
   .card
     position relative
     overflow hidden
@@ -93,20 +96,22 @@
           position relative
           #title
             font-weight 400
-            font-size 18px
+            // font-size 18px
             margin-bottom 10px
             text-transform uppercase
-          #author, #conference
+          #author, #conference, #type
+            font-size 12px
             font-weight 300
             color rgb(130, 130, 130)
-          #author
+          #author, #conference
             margin-bottom 7px
-          #conference
+          #type
             margin-bottom 0
           .links
             position absolute
             bottom 0
             left 0
+            font-size 12px
             a
               display block
               margin-top 10px

@@ -26,9 +26,16 @@ $(() => {
   });
 
   $(".pub-overlay").click(() => {
-    $("#publications .card").animate({
-      "height": $("#publications .card").get(0).scrollHeight
-    }, 500, () => {$(".pub-overlay").fadeOut("fast");});
+    if (parseInt($("#publications .card").css("height")) != 620) {
+      $("#publications .card").animate({
+        "height": 620
+      }, 500, () => {$(".pub-overlay span").css("transform", "scaleY(1)");});
+    } else {
+      $("#publications .card").animate({
+        "height": $("#publications .card").get(0).scrollHeight
+      }, 500, () => {$(".pub-overlay span").css("transform", "scaleY(-1)");});      
+    }
+
   });
 
   $("#desktop img").css("height", parseInt($("#desktop img").css("width"))/3*2);
