@@ -145,11 +145,17 @@ html
                 p#title= p.title
                 p#author= p.author
                 p#conference= p.conference
-                p#type= p.type
+                p#type
+                  if p.isAward && p.isAward == 1
+                    span.fa.fa-trophy
+                  span= p.type
                 .links
                   each l in p.links
                     a(href=l[1], target='_blank')
-                      span.fa.fa-file
+                      if l[2]
+                        span.fa(class='fa-'+l[2])
+                      else
+                        span.fa.fa-file
                       span= l[0]
               .column#abstract
                 p= p.abstract 
