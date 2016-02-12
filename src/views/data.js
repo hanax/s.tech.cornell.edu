@@ -9,8 +9,8 @@ var publications = [
     type: 'Full Paper',
     image: '/assets/img/publication/publication-Anonymity.jpg',
     video: '/assets/img/publication/publication-Anonymity.mp4',
-    links: [['Dataset', 'https://github.com/sTechLab/SelfDisclosureItems', 'table'], 
-            ['PDF', 'http://www.nirg.net/papers/contribution2016grinberg.pdf']],
+    links: [['Dataset', 'https://github.com/sTechLab/SelfDisclosureItems', 'arrow-down'], 
+            ['PDF', '/assets/papers/anonymity-intimacy-disclosure.pdf']],
     abstract: 'We conducted an experiment to study the relationship between content intimacy and self-disclosure in social media, and how anonymity and audience type (social ties vs. people nearby) moderate that relationship.'
   },
   {
@@ -18,8 +18,8 @@ var publications = [
     title: 'Changes in Engagement Before and After Posting to Facebook',
     author: 'Nir Grinberg, P. Alex Dow, Lada A. Adamic, and Mor Naaman',
     conference: 'CHI 2016',
-    isAward: '1',
-    type: 'Best Paper Honorable Mention',
+    isAward: 'Best Paper Honorable Mention',
+    type: 'Full Paper',
     image: '/assets/img/publication/publication-08.png',
     links: [['PDF', 'http://www.nirg.net/papers/contribution2016grinberg.pdf']],
     abstract: 'The study identified a unique pattern of engagement that accompanies posting on Facebook. Using observational data analysis we show that after posting content, people visit the site more often, are more attentive to content from friends, and even interact more with friends content.'
