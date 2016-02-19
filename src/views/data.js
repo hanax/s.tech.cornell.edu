@@ -183,6 +183,10 @@ var people = [
 
 var news = [
   {
+    title: 'Mor is an invited speaker at the [9th International Conference on Web Search and Data Mining](http://www.wsdm-conference.org/2016/invited-speakers.html#pe-naaman) (WSDM 2016) in San Francisco on February 25.',
+    date: '2/2016'
+  },
+  {
     title: 'We had 4 papers accepted to CHI 2016 in San Jose! Congratulations to Xiao, Nir, Louise, and Mor!',
     date: '12/2015'
   },
