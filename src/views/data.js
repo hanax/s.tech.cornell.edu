@@ -10,8 +10,7 @@ var publications = [
     image: '/assets/img/publication/publication-youtube.jpg',
     links: [['Dataset', 'https://github.com/sTechLab/YouTubeDurationData', 'arrow-down'], 
             ['PDF', '/assets/papers/ParkICWSM2016_YT.pdf']],
-    abstract: '
-Using two distinct YouTube datasets, we examine whether and how indicators of collective preferences and reactions are associated with view duration of videos.'
+    abstract: 'Using two distinct YouTube datasets, we examine whether and how indicators of collective preferences and reactions are associated with view duration of videos.'
   },
   {
     mobileInfo: 'Xiao Ma, Jeff Hancock, Mor Naaman. Anonymity, Intimacy and Self-Disclosure in Social Media. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2016), May 2015, San Jose, USA',
@@ -30,12 +29,8 @@ Using two distinct YouTube datasets, we examine whether and how indicators of co
     title: 'Changes in Engagement Before and After Posting to Facebook',
     author: 'Nir Grinberg, P. Alex Dow, Lada A. Adamic, and Mor Naaman',
     conference: 'CHI 2016',
-<<<<<<< HEAD
-    type: 'Best Paper Honorable Mention',
-=======
     isAward: 'Best Paper Honorable Mention',
     type: 'Full Paper',
->>>>>>> origin/master
     image: '/assets/img/publication/publication-08.png',
     links: [['PDF', 'http://www.nirg.net/papers/contribution2016grinberg.pdf']],
     abstract: 'The study identified a unique pattern of engagement that accompanies posting on Facebook. Using observational data analysis we show that after posting content, people visit the site more often, are more attentive to content from friends, and even interact more with friends content.'
