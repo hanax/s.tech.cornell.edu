@@ -33,6 +33,7 @@
     list-style-type none
     padding 20px 0 0 0
     margin-top 20px
+    line-height 20px
     #mobile
       @media screen and (min-width: 900px)
         display none
@@ -62,24 +63,26 @@
           border 2px solid theme-blue
         .column
           float left
-          margin-right 6%
+          margin-right 8%
         #abstract
+          font-weight 300
           margin-right 0
         p
           margin 0
         #image
-          width 25%
+          width 23%
           position relative
           .pub-video-overlay
             @media screen and (max-width: 900px)
               display none
             position absolute
             width 100%
-            height 100%
+            // height 100%
             background rgba(0,0,0,.4)
             opacity .8
             left 0
             top 0
+            bottom 4px
             text-align center
             text-shadow 0 1px 0 rgba(0,0,0,.8)
             font-size 60px
@@ -92,31 +95,26 @@
         .pub-video
           display none
         .pub-info
-          width 32%
+          width 30%
           position relative
           #title
-            font-weight 400
-            // font-size 18px
-            margin-bottom 10px
+            font-size 13px
+            // margin-bottom 10px
             text-transform uppercase
-          #author, #conference, #type
-            font-size 12px
+          #author, #conference, #isAward
+            font-size 14px
             font-weight 300
-            color rgb(130, 130, 130)
-          #author, #conference
-            margin-bottom 7px
-          #type
-            margin-bottom 0
+            color rgb(160, 160, 160)
           .links
             position absolute
             bottom 0
             left 0
-            font-size 12px
+            font-size 14px
             a
               display block
-              margin-top 10px
+            span
+              margin-left 3px
         #abstract
           width 30%
-          font-weight 300
-          font-size 12px
+          font-size 14px
           text-align justify

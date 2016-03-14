@@ -142,15 +142,22 @@ html
                       source(src=p.video, type='video/mp4')
                       | Your browser does not support the video tag.
               .column.pub-info
-                p#title= p.title
+                p#title
+                  if p.isAward
+                    span.fa.fa-trophy
+                  span= p.title
                 p#author= p.author
-                p#conference= p.conference
-                p#type= p.type
+                p#conference
+                  span= p.conference
+                  span= '  [' + p.type + ']'
+                if p.isAward
+                  p#isAward= p.isAward
                 .links
                   each l in p.links
                     a(href=l[1], target='_blank')
-                      span.fa.fa-file
                       span= l[0]
+                      if l[2]
+                        span.fa(class='fa-'+l[2])
               .column#abstract
                 p= p.abstract 
         .pub-overlay
