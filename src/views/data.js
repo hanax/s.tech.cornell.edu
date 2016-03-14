@@ -10,7 +10,8 @@ var publications = [
     image: '/assets/img/publication/publication-youtube.jpg',
     links: [['Dataset', 'https://github.com/sTechLab/YouTubeDurationData', 'arrow-down'], 
             ['PDF', '/assets/papers/ParkICWSM2016_YT.pdf']],
-    abstract: 'W'
+    abstract: '
+Using two distinct YouTube datasets, we examine whether and how indicators of collective preferences and reactions are associated with view duration of videos.'
   },
   {
     mobileInfo: 'Xiao Ma, Jeff Hancock, Mor Naaman. Anonymity, Intimacy and Self-Disclosure in Social Media. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2016), May 2015, San Jose, USA',
