@@ -132,7 +132,7 @@ var people = [
     link: 'https://people.jacobs.cornell.edu/mor/',
     image: '/assets/img/people/profile_pic_mor.jpg',
     email: 'mor@jacobs.cornell.edu',
-    twitter: 'infomor'
+    twitter: 'informor'
   },
   {
     name: 'Ross McLachlan',
@@ -194,16 +194,16 @@ var people = [
 
 var news = [
   {
+    title: 'Paper studying view duration of YouTube videos to appear in ICWSM; the paper and dataset are both available below',
+    date: '4/2016'
+  },
+  {
+    title: 'Mor gave a keynote at [SNOW](http://www.snow-workshop.org) in Montreal on April 12.',
+    date: '4/2016'
+  },
+  {
     title: 'Mor is an invited speaker at the [9th International Conference on Web Search and Data Mining](http://www.wsdm-conference.org/2016/invited-speakers.html#pe-naaman) (WSDM 2016) in San Francisco on February 25.',
     date: '2/2016'
-  },
-  {
-    title: 'We had 4 papers accepted to CHI 2016 in San Jose! Congratulations to Xiao, Nir, Louise, and Mor!',
-    date: '12/2015'
-  },
-  {
-    title: 'Our lab is hiring PhD students! Check out the [Cornell Information Science site](http://infosci.cornell.edu/academics/phd/how-apply) on how to apply to work with us next year.',
-    date: '12/2015'
   },
 ].map(function(n) {
   n.title = marked(n.title);
