@@ -124,9 +124,13 @@ html
             li
               .image(style='background-image: url(#{p.image})')
               p= p.mobileInfo
-              a(href=p.link, target='_blank')
-                span.fa.fa-file
-                span PDF
+              .links
+                each l in p.links
+                  a(href=l[1], target='_blank')
+                    span= l[0]
+                    if l[2]
+                      span.fa(class='fa-'+l[2])
+                  p 
           #desktop
             li
               .column#image
