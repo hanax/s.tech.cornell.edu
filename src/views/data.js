@@ -1,7 +1,8 @@
 var marked = require('marked');
 
 var publications = [
- {  
+ { 
+  
  	mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
     title: 'TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
     author: 'Emily Sun, Ross McLachlan, Mor Naaman',
