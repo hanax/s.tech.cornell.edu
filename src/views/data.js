@@ -1,6 +1,27 @@
 var marked = require('marked');
 
 var publications = [
+ {  
+ 	mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
+    title: 'TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
+    author: 'Emily Sun, Ross McLachlan, Mor Naaman',
+    conference: 'CSCW 2017',
+    type: 'Full Paper',
+    image: '/assets/img/publication/P2PTAM_CR.jpg',
+    links: [['PDF', '/assets/papers/tamies.pdf']],
+    abstract: 'Peer-to-peer indirect exchange services, such as Peerby and NeighborGoods, do not seem to have been as widely adopted as direct exchange systems, such as Uber and AirBnb. Building upon the results of interviews with 37 residents of New York City, a survey with 195 respondents, previous technology acceptance models, critical mass theory, and prior research on peer economies, we propose a technology acceptance model for indirect exchange systems that includes generalized trust and ease of coordination.'
+  },
+ {  
+ 	mobileInfo: 'Xiao Ma, Emily Sun, Mor Naaman. What Happens in happn: The Warranting Power of Location History in Online Dating',
+    title: 'What Happens in happn: The Warranting Power of Location History in Online Dating',
+    author: 'Xiao Ma, Emily Sun, Mor Naaman',
+    conference: 'CSCW 2017',
+    type: 'Full Paper',
+    image: '/assets/img/publication/happn_website.jpg',
+    links: [['PDF', '/assets/papers/making-sense-location_CR.pdf']],
+    abstract: 'A recent mobile dating application, happn, adds a temporal dimension to location-based dating, showing users the number of times and recent overlap that they crossed path with each other. We conducted qualitative interviews with 15 happn users and discuss the findings in the context of Uncertainty Reduction Theory. The warranting power of the device driven location data was accepted as valuable and generated little concern about misrepresentation. Our findings suggest the potential for utilizing location data outside of the domain of online dating.'
+  },
+
   {
     mobileInfo: 'Minsu Park, Mor Naaman, Jonah Berger. A Data-driven Study of View Duration on YouTube. In Proceedings, ACM International Conference on Web Logs and Social Media. (ICWSM 2016), May 2016, Cologne, Germany',
     title: 'A Data-driven Study of View Duration on YouTube',
@@ -149,7 +170,21 @@ var people = [
     image: '/assets/img/people/profile_pic_nir.jpg',
     email: 'nir@cs.cornell.edu',
     twitter: 'grinbergnir'
+  },
+  {
+    name: 'Max Grusky',
+    title: 'PhD Student',
+    link: 'https://www.cs.cornell.edu/~grusky/',
+    image: '/assets/img/people/max.jpg',
+    email: 'grusky@cs.cornell.edu',
   },  
+    {
+    name: 'Matthew Law',
+    title: 'PhD Student',
+    link:  'http://mattlaw.io',
+    image: '/assets/img/people/matt.jpg',
+    email:  'mvl24@cornell.edu'
+  },
   {
     name: 'Xiao Ma',
     title: 'PhD Student',
@@ -159,52 +194,36 @@ var people = [
     twitter: 'infoxiao'
   },
   {
-    name: 'Minsu Park',
-    title: 'PhD Student',
-    link: 'https://sites.google.com/site/mansumansu/',
-    image: '/assets/img/people/profile_pic_minsu.png',
-    email: 'minsu@jacobs.cornell.edu',
-    twitter: 'mansumansu'
-  },
-  {
     name: 'Emily Sun',
     title: 'PhD Student',
     link: 'http://emilywsun.com',
     image: '/assets/img/people/profile_pic_emily.jpg',
     email: 'emily@jacobs.cornell.edu',
     twitter: 'emilywsun'
-  },
-  {
-    name: 'Louise Barkhuus',
-    title: 'Visiting Professor',
-    link: 'http://www.barkhu.us/',
-    image: '/assets/img/people/profile_pic_louise.jpg',
-    email: 'barkhuus@cornell.edu',
-    twitter: 'barkhuus'
-  },
-  {
-    name: 'Matthew Salganik',
-    title: 'Visiting Professor',
-    link: 'http://www.princeton.edu/~mjs3/',
-    image: '/assets/img/people/profile_pic_matthew.jpg',
-    email: 'mjs99@cornell.edu',
-    twitter: 'msalganik'
   }
 ];
 
 var news = [
-  {
-    title: 'Paper studying view duration of YouTube videos to appear in ICWSM; the paper and dataset are both available below',
-    date: '4/2016'
-  },
-  {
+	{ 
+		title: 'Five papers by lab authors accepted to CSCW 2017 -- PDFs available soon!',
+		date: '9/2016'
+	},
+	{
+		title:' “Changes in Engagement Before and After Posting to Facebook”  Honorable Mention for Best Paper at CHI 2016',
+		date:'5/2016'
+	},
+  	{
+    	title: 'Paper studying view duration of YouTube videos to appear in ICWSM; the paper and dataset are both available below',
+    	date: '4/2016'
+  	},
+/*  {
     title: 'Mor gave a keynote at [SNOW](http://www.snow-workshop.org) in Montreal on April 12.',
     date: '4/2016'
   },
   {
     title: 'Mor is an invited speaker at the [9th International Conference on Web Search and Data Mining](http://www.wsdm-conference.org/2016/invited-speakers.html#pe-naaman) (WSDM 2016) in San Francisco on February 25.',
     date: '2/2016'
-  },
+  },*/
 ].map(function(n) {
   n.title = marked(n.title);
   return n;
