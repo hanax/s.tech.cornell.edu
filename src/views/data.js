@@ -3,6 +3,18 @@ var marked = require('marked');
 var publications = [
  { 
   
+  mobileInfo: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman. Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles',
+    title: 'Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles',
+    author: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman',
+    conference: 'CSCW 2017',
+    type: 'Full Paper',
+    image: '/assets/img/publication/airbnb.png',
+    links: [['Dataset', 'https://github.com/sTechLab/AirbnbHosts', 'arrow-down'], 
+            ['PDF', '/assets/papers/ma2017airbnb.pdf']],
+    abstract: 'We examine how hosts describe themselves on their Airbnb profile pages. We use a mixed-methods study to develop a categorization of the topics that hosts self-disclose in their profile descriptions, and show that these topics differ depending on the type of guest engagement expected. We also examine the perceived trustworthiness of profiles using topic-coded profiles from 1,200 hosts, showing that longer self-descriptions are perceived to be more trustworthy. Further, we show that there are common strategies (a mix of topics) hosts use in self-disclosure, and that these strategies cause differences in perceived trustworthiness scores. Finally, we show that the perceived trustworthiness score is a significant predictor of host choice--especially for shorter profiles that show more variation.'
+  },
+ { 
+  
  	mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
     title: 'TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
     author: 'Emily Sun, Ross McLachlan, Mor Naaman',
@@ -157,6 +169,13 @@ var people = [
     twitter: 'informor'
   },
   {
+    name: 'Trevor Pinch',
+    title: 'Visiting Professor',
+    link: 'http://sts.cornell.edu/people/tjp2.cfm',
+    image: '/assets/img/people/trevor.gif',
+    email: 'tjp2@cornell.edu',
+  },
+/*  {
     name: 'Ross McLachlan',
     title: 'Post-doc',
     link: 'http://www.rossmclachlan.co.uk/',
@@ -164,6 +183,7 @@ var people = [
     email: 'rdm257@cornell.edu',
     twitter: 'rossdmcLachlan'
   },
+  */
   {
     name: 'Nir Grinberg',
     title: 'PhD Student',
