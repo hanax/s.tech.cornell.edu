@@ -146,14 +146,14 @@ html
                       source(src=p.video, type='video/mp4')
                       | Your browser does not support the video tag.
               .column.pub-info
+                p#conference
+                  span= p.conference
+                  span= '  [' + p.type + ']'
                 p#title
                   if p.isAward
                     span.fa.fa-trophy
                   span= p.title
                 p#author= p.author
-                p#conference
-                  span= p.conference
-                  span= '  [' + p.type + ']'
                 if p.isAward
                   p#isAward= p.isAward
                 .links
