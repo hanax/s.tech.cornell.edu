@@ -2,7 +2,7 @@ var marked = require('marked');
 
 var publications = [
   { 
-  mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time',
+  mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
     title: 'Modeling Sub-Document Attention Using Viewport Time',
     author: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman',
     conference: 'CHI 2017',
@@ -12,7 +12,7 @@ var publications = [
     abstract: 'Website measures of engagement captured from millions of users, such as in-page scrolling and viewport position, can provide deeper understanding of attention than possible with simpler measures, such as dwell time. Using data from 1.2M news reading sessions, we examine and evaluate three increasingly sophisticated models of sub-document attention computed from viewport time, the time a page component is visible on the user display. Our approach supports refined large-scale measurement of user engagement at a level previously available only from lab-based eye-tracking studies.'
   },
  { 
-  mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. MoveMeant: Anonymously Building Community Through Shared Location Histories.',
+  mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. MoveMeant: Anonymously Building Community Through Shared Location Histories. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
     title: 'MoveMeant: Anonymously Building Community Through Shared Location Histories',
     author: 'Emily Sun*, Ross McLachlan*, Mor Naaman (*authors contributed equally)',
     conference: 'CHI 2017',
@@ -22,7 +22,7 @@ var publications = [
     abstract: 'We describe the design and implementation of MoveMeant, a system aimed to increase local community awareness through shared location traces. We report findings from interviews with residents in the Bronx, New York City who participated in a deployment of MoveMeant over a 6-week period.'
   },
  { 
-  mobileInfo: 'Xiao Ma, Nazanin Andalibi, Louise Barkhuus, Mor Naaman. “People Are Either Too Fake or Too Real”: Opportunities and Challenges in Tie-Based Anonymity',
+  mobileInfo: 'Xiao Ma, Nazanin Andalibi, Louise Barkhuus, Mor Naaman. “People Are Either Too Fake or Too Real”: Opportunities and Challenges in Tie-Based Anonymity. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
     title: '“People Are Either Too Fake or Too Real”: Opportunities and Challenges in Tie-Based Anonymity',
     author: 'Xiao Ma, Nazanin Andalibi, Louise Barkhuus, Mor Naaman',
     conference: 'CHI 2017',
@@ -32,7 +32,7 @@ var publications = [
     abstract: 'In recent years, several mobile applications allowed individuals to anonymously share information with friends and contacts, without any persistent identity marker. The functions of these “tie-based” anonymity services may be notably different than other social media services. We use semi-structured interviews to qualitatively examine motivations, practices and perceptions in two tie-based anonymity apps: Secret (now defunct, in the US) and Mimi (in China).'
   },
  { 
-  mobileInfo: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman. Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles',
+  mobileInfo: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman. Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work and Social Computing. (CSCW 2017), February 2017, Portland, USA',
     title: 'Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles',
     author: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman',
     conference: 'CSCW 2017',
@@ -44,24 +44,24 @@ var publications = [
     abstract: 'We examine how hosts describe themselves on their Airbnb profile pages. We use a mixed-methods study to develop a categorization of the topics that hosts self-disclose in their profile descriptions, and show that these topics differ depending on the type of guest engagement expected. We also examine the perceived trustworthiness of profiles using topic-coded profiles from 1,200 hosts, showing that longer self-descriptions are perceived to be more trustworthy. Further, we show that there are common strategies (a mix of topics) hosts use in self-disclosure, and that these strategies cause differences in perceived trustworthiness scores. Finally, we show that the perceived trustworthiness score is a significant predictor of host choice--especially for shorter profiles that show more variation.'
   },
  { 
- 	mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
+ 	mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work and Social Computing. (CSCW 2017), February 2017, Portland, USA',
     title: 'TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
     author: 'Emily Sun*, Ross McLachlan*, Mor Naaman (*authors contributed equally)',
     conference: 'CSCW 2017',
     type: 'Paper',
     image: '/assets/img/publication/P2PTAM_CR.jpg',
     links: [['PDF', '/assets/papers/tamies.pdf']],
-    abstract: 'Peer-to-peer indirect exchange services, such as Peerby and NeighborGoods, do not seem to have been as widely adopted as direct exchange systems, such as Uber and AirBnb. Building upon the results of interviews with 37 residents of New York City, a survey with 195 respondents, previous technology acceptance models, critical mass theory, and prior research on peer economies, we propose a technology acceptance model for indirect exchange systems that includes generalized trust and ease of coordination.'
+    abstract: 'Peer-to-peer indirect exchange services, such as Peerby and NeighborGoods, do not seem to have been as widely adopted as direct exchange systems, such as Uber and AirBnb. Building upon the results of interviews and a survey, previous technology acceptance models, critical mass theory, and prior research on peer economies, we propose a technology acceptance model for indirect exchange systems.'
   },
  {  
- 	mobileInfo: 'Xiao Ma, Emily Sun, Mor Naaman. What Happens in happn: The Warranting Power of Location History in Online Dating',
+ 	mobileInfo: 'Xiao Ma, Emily Sun, Mor Naaman. What Happens in happn: The Warranting Power of Location History in Online Dating. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work and Social Computing. (CSCW 2017), February 2017, Portland, USA',
     title: 'What Happens in happn: The Warranting Power of Location History in Online Dating',
     author: 'Xiao Ma, Emily Sun, Mor Naaman',
     conference: 'CSCW 2017',
     type: 'Paper',
     image: '/assets/img/publication/happn_website.jpg',
     links: [['PDF', '/assets/papers/making-sense-location_CR.pdf']],
-    abstract: 'A recent mobile dating application, happn, adds a temporal dimension to location-based dating, showing users the number of times and recent overlap that they crossed path with each other. We conducted qualitative interviews with 15 happn users and discuss the findings in the context of Uncertainty Reduction Theory. The warranting power of the device driven location data was accepted as valuable and generated little concern about misrepresentation. Our findings suggest the potential for utilizing location data outside of the domain of online dating.'
+    abstract: 'A recent mobile dating application, happn, adds a temporal dimension to location-based dating, showing users the number of times and recent overlap that they crossed path with each other. We conducted qualitative interviews with 15 happn users and discuss the findings in the context of Uncertainty Reduction Theory.'
   },
 
   {
