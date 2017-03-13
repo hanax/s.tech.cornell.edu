@@ -255,6 +255,10 @@ var people = [
 ];
 
 var news = [
+  { 
+    title: 'Received Google Research Award to support our on attention to online media',
+    date: '2/2017'
+  },
 	{ 
 		title: '“Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles” Honorable Mention for Best Paper at CSCW 2017',
 		date: '1/2017'
@@ -263,7 +267,7 @@ var news = [
 		title: 'Three papers from the lab were accepted to CHI. Check out the PDFs below!',
 		date: '12/2016'
 	},
-	{ 
+/*	{ 
 		title: 'Five papers by lab authors accepted to CSCW 2017 -- PDF now available.',
 		date: '9/2016'
 	},
