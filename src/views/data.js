@@ -2,9 +2,6 @@ var marked = require('marked');
 
 var publications = [
   { 
-<<<<<<< HEAD
-  mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
-=======
   mobileInfo: 'Xiao Ma, Trishala Neeraj, and Mor Naaman. A Computational Approach to Perceived Trustworthiness of Airbnb Host Profiles. In Proceedings, International AAAI Conference on Web and Social Media. (ICWSM 2017), May 2017, Montreal, Canada',
     title: 'A Computational Approach to Perceived Trustworthiness of Airbnb Host Profiles',
     author: 'Xiao Ma, Trishala Neeraj, Mor Naaman',
@@ -28,7 +25,6 @@ var publications = [
 */
   { 
   mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
->>>>>>> hanax/master
     title: 'Modeling Sub-Document Attention Using Viewport Time',
     author: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman',
     conference: 'CHI 2017',
@@ -38,11 +34,7 @@ var publications = [
     abstract: 'Website measures of engagement captured from millions of users, such as in-page scrolling and viewport position, can provide deeper understanding of attention than possible with simpler measures, such as dwell time. Using data from 1.2M news reading sessions, we examine and evaluate three increasingly sophisticated models of sub-document attention computed from viewport time, the time a page component is visible on the user display. Our approach supports refined large-scale measurement of user engagement at a level previously available only from lab-based eye-tracking studies.'
   },
  { 
-<<<<<<< HEAD
-  mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. MoveMeant: Anonymously Building Community Through Shared Location Histories. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
-=======
   mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. MoveMeant: Anonymously Building Community Through Shared Location Histories. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
->>>>>>> hanax/master
     title: 'MoveMeant: Anonymously Building Community Through Shared Location Histories',
     author: 'Emily Sun*, Ross McLachlan*, Mor Naaman (*authors contributed equally)',
     conference: 'CHI 2017',
@@ -52,11 +44,7 @@ var publications = [
     abstract: 'We describe the design and implementation of MoveMeant, a system aimed to increase local community awareness through shared location traces. We report findings from interviews with residents in the Bronx, New York City who participated in a deployment of MoveMeant over a 6-week period.'
   },
  { 
-<<<<<<< HEAD
-  mobileInfo: 'Xiao Ma, Nazanin Andalibi, Louise Barkhuus, Mor Naaman. “People Are Either Too Fake or Too Real”: Opportunities and Challenges in Tie-Based Anonymity. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
-=======
   mobileInfo: 'Xiao Ma, Nazanin Andalibi, Louise Barkhuus, Mor Naaman. “People Are Either Too Fake or Too Real”: Opportunities and Challenges in Tie-Based Anonymity. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
->>>>>>> hanax/master
     title: '“People Are Either Too Fake or Too Real”: Opportunities and Challenges in Tie-Based Anonymity',
     author: 'Xiao Ma, Nazanin Andalibi, Louise Barkhuus, Mor Naaman',
     conference: 'CHI 2017',
@@ -66,11 +54,7 @@ var publications = [
     abstract: 'We interviewed users of two anonymous social applications, Secret and Mimi, both of which allowed people to share information anonymously with friends. Our findings show that although users feel more comfortable sharing information on these “tie-based” anonymous applications, they are still concerned about being identified, and at the same time, engage in sometimes elaborate attempts to uncover the identities of others.'
   },
  { 
-<<<<<<< HEAD
-  mobileInfo: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman. Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work and Social Computing. (CSCW 2017), February 2017, Portland, USA',
-=======
   mobileInfo: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman. Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
->>>>>>> hanax/master
     title: 'Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles',
     author: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman',
     conference: 'CSCW 2017',
@@ -82,36 +66,24 @@ var publications = [
     abstract: 'We conducted the first large-scale mixed-method analysis of Airbnb host profiles, by categorizing the types of information hosts share in their profiles, and assessing how trustworthy their profiles are perceived to be. We found that hosts do not always follow the prompts by Airbnb website, but instead disclose information that reduces the uncertainty of anticipated future interaction. The language of hospitality, i.e., making direct promises to take care of guests, was found to be the most effective in establishing perceived trustworthiness.'
   },
  { 
-<<<<<<< HEAD
- 	mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work and Social Computing. (CSCW 2017), February 2017, Portland, USA',
-=======
- 	mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
->>>>>>> hanax/master
+  mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
     title: 'TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
     author: 'Emily Sun*, Ross McLachlan*, Mor Naaman (*authors contributed equally)',
     conference: 'CSCW 2017',
     type: 'Paper',
     image: '/assets/img/publication/P2PTAM_CR.jpg',
     links: [['PDF', '/assets/papers/tamies.pdf']],
-    abstract: 'Peer-to-peer indirect exchange services, such as Peerby and NeighborGoods, do not seem to have been as widely adopted as direct exchange systems, such as Uber and AirBnb. Building upon the results of interviews and a survey, previous technology acceptance models, critical mass theory, and prior research on peer economies, we propose a technology acceptance model for indirect exchange systems.'
+    abstract: 'Peer-to-peer indirect exchange services, such as Peerby and NeighborGoods, do not seem to have been as widely adopted as direct exchange systems, such as Uber and AirBnb. Building upon the results of interviews with 37 residents of New York City, a survey with 195 respondents, previous technology acceptance models, critical mass theory, and prior research on peer economies, we propose a technology acceptance model for indirect exchange systems that includes generalized trust and ease of coordination.'
   },
  {  
-<<<<<<< HEAD
- 	mobileInfo: 'Xiao Ma, Emily Sun, Mor Naaman. What Happens in happn: The Warranting Power of Location History in Online Dating. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work and Social Computing. (CSCW 2017), February 2017, Portland, USA',
-=======
- 	mobileInfo: 'Xiao Ma, Emily Sun, Mor Naaman. What Happens in happn: The Warranting Power of Location History in Online Dating. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
->>>>>>> hanax/master
+  mobileInfo: 'Xiao Ma, Emily Sun, Mor Naaman. What Happens in happn: The Warranting Power of Location History in Online Dating. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
     title: 'What Happens in happn: The Warranting Power of Location History in Online Dating',
     author: 'Xiao Ma, Emily Sun, Mor Naaman',
     conference: 'CSCW 2017',
     type: 'Paper',
     image: '/assets/img/publication/happn_website.jpg',
     links: [['PDF', '/assets/papers/making-sense-location_CR.pdf']],
-<<<<<<< HEAD
-    abstract: 'A recent mobile dating application, happn, adds a temporal dimension to location-based dating, showing users the number of times and recent overlap that they crossed path with each other. We conducted qualitative interviews with 15 happn users and discuss the findings in the context of Uncertainty Reduction Theory.'
-=======
     abstract: 'We interviewed users of a novel mobile dating application, happn, which shows users the number of times they crossed path with potential matches. We show that users assigned significant meaning to the minimal cues available from location history information. At the same time, users have concerns about security and recognition by known others as a result of sharing personal location history.'
->>>>>>> hanax/master
   },
 
   {
@@ -317,26 +289,26 @@ var news = [
     title: 'Xiao Ma recognized as a Facebook PhD Fellowship Finalist. Congrats!',
     date: '1/2017'
   },
-/*	{ 
-		title: '“Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles” Honorable Mention for Best Paper at CSCW 2017',
-		date: '1/2017'
-	},
-/*	{ 
-		title: 'Three papers from the lab were accepted to CHI. Check out the PDFs below!',
-		date: '12/2016'
-	},
-/*	{ 
-		title: 'Five papers by lab authors accepted to CSCW 2017 -- PDF now available.',
-		date: '9/2016'
-	},
-/*	{
-		title:' “Changes in Engagement Before and After Posting to Facebook”  Honorable Mention for Best Paper at CHI 2016',
-		date:'5/2016'
-	},
-  	{
-/*    	title: 'Paper studying view duration of YouTube videos to appear in ICWSM; the paper and dataset are both available below',
-    	date: '4/2016'
-  	},
+/*  { 
+    title: '“Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles” Honorable Mention for Best Paper at CSCW 2017',
+    date: '1/2017'
+  },
+/*  { 
+    title: 'Three papers from the lab were accepted to CHI. Check out the PDFs below!',
+    date: '12/2016'
+  },
+/*  { 
+    title: 'Five papers by lab authors accepted to CSCW 2017 -- PDF now available.',
+    date: '9/2016'
+  },
+/*  {
+    title:' “Changes in Engagement Before and After Posting to Facebook”  Honorable Mention for Best Paper at CHI 2016',
+    date:'5/2016'
+  },
+    {
+/*      title: 'Paper studying view duration of YouTube videos to appear in ICWSM; the paper and dataset are both available below',
+      date: '4/2016'
+    },
 /*  {
     title: 'Mor gave a keynote at [SNOW](http://www.snow-workshop.org) in Montreal on April 12.',
     date: '4/2016'
