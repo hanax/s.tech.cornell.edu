@@ -2,7 +2,33 @@ var marked = require('marked');
 
 var publications = [
   { 
+<<<<<<< HEAD
   mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
+=======
+  mobileInfo: 'Xiao Ma, Trishala Neeraj, and Mor Naaman. A Computational Approach to Perceived Trustworthiness of Airbnb Host Profiles. In Proceedings, International AAAI Conference on Web and Social Media. (ICWSM 2017), May 2017, Montreal, Canada',
+    title: 'A Computational Approach to Perceived Trustworthiness of Airbnb Host Profiles',
+    author: 'Xiao Ma, Trishala Neeraj, Mor Naaman',
+    conference: 'ICWSM 2017',
+    type: 'Poster',
+    image: '/assets/img/publication/computational-airbnb.jpg',
+    links: [['Dataset', 'https://github.com/sTechLab/AirbnbHosts-Extended', 'arrow-down'], 
+            ['PDF', 'http://maxiao.info/assets/computational-airbnb.pdf']],
+    abstract: 'Building on our previous work (see below by Ma et al. CSCW 2017), we developed a novel computational framework to predict the perceived trustworthiness of host profile texts in the context of online lodging marketplaces. We developed a dataset of 4,180 Airbnb host profiles annotated with perceived trustworthiness, and also provide insights into the linguistic factors that contribute to higher and lower perceived trustworthiness for profiles of different lengths.'
+  },
+/* { 
+    mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
+    title: 'Modeling Sub-Document Attention Using Viewport Time',
+    author: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman',
+    conference: 'CHI 2017',
+    type: 'Note',
+    image: '/assets/img/publication/viewport-time-chi2017.png',
+    links: [['PDF', '/assets/papers/viewport-time-chi2017.pdf']],
+    abstract: 'Website measures of engagement captured from millions of users, such as in-page scrolling and viewport position, can provide deeper understanding of attention than possible with simpler measures, such as dwell time. Using data from 1.2M news reading sessions, we examine and evaluate three increasingly sophisticated models of sub-document attention computed from viewport time, the time a page component is visible on the user display. Our approach supports refined large-scale measurement of user engagement at a level previously available only from lab-based eye-tracking studies.'
+  },
+*/
+  { 
+  mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
+>>>>>>> hanax/master
     title: 'Modeling Sub-Document Attention Using Viewport Time',
     author: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman',
     conference: 'CHI 2017',
@@ -12,7 +38,11 @@ var publications = [
     abstract: 'Website measures of engagement captured from millions of users, such as in-page scrolling and viewport position, can provide deeper understanding of attention than possible with simpler measures, such as dwell time. Using data from 1.2M news reading sessions, we examine and evaluate three increasingly sophisticated models of sub-document attention computed from viewport time, the time a page component is visible on the user display. Our approach supports refined large-scale measurement of user engagement at a level previously available only from lab-based eye-tracking studies.'
   },
  { 
+<<<<<<< HEAD
   mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. MoveMeant: Anonymously Building Community Through Shared Location Histories. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
+=======
+  mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. MoveMeant: Anonymously Building Community Through Shared Location Histories. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
+>>>>>>> hanax/master
     title: 'MoveMeant: Anonymously Building Community Through Shared Location Histories',
     author: 'Emily Sun*, Ross McLachlan*, Mor Naaman (*authors contributed equally)',
     conference: 'CHI 2017',
@@ -22,17 +52,25 @@ var publications = [
     abstract: 'We describe the design and implementation of MoveMeant, a system aimed to increase local community awareness through shared location traces. We report findings from interviews with residents in the Bronx, New York City who participated in a deployment of MoveMeant over a 6-week period.'
   },
  { 
+<<<<<<< HEAD
   mobileInfo: 'Xiao Ma, Nazanin Andalibi, Louise Barkhuus, Mor Naaman. “People Are Either Too Fake or Too Real”: Opportunities and Challenges in Tie-Based Anonymity. In Proceedings, ACM Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
+=======
+  mobileInfo: 'Xiao Ma, Nazanin Andalibi, Louise Barkhuus, Mor Naaman. “People Are Either Too Fake or Too Real”: Opportunities and Challenges in Tie-Based Anonymity. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
+>>>>>>> hanax/master
     title: '“People Are Either Too Fake or Too Real”: Opportunities and Challenges in Tie-Based Anonymity',
     author: 'Xiao Ma, Nazanin Andalibi, Louise Barkhuus, Mor Naaman',
     conference: 'CHI 2017',
     type: 'Paper',
     image: '/assets/img/publication/secret-qual.png',
     links: [['PDF', '/assets/papers/secret-qual.pdf']],
-    abstract: 'In recent years, several mobile applications allowed individuals to anonymously share information with friends and contacts, without any persistent identity marker. The functions of these “tie-based” anonymity services may be notably different than other social media services. We use semi-structured interviews to qualitatively examine motivations, practices and perceptions in two tie-based anonymity apps: Secret (now defunct, in the US) and Mimi (in China).'
+    abstract: 'We interviewed users of two anonymous social applications, Secret and Mimi, both of which allowed people to share information anonymously with friends. Our findings show that although users feel more comfortable sharing information on these “tie-based” anonymous applications, they are still concerned about being identified, and at the same time, engage in sometimes elaborate attempts to uncover the identities of others.'
   },
  { 
+<<<<<<< HEAD
   mobileInfo: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman. Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work and Social Computing. (CSCW 2017), February 2017, Portland, USA',
+=======
+  mobileInfo: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman. Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
+>>>>>>> hanax/master
     title: 'Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles',
     author: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman',
     conference: 'CSCW 2017',
@@ -41,10 +79,14 @@ var publications = [
     image: '/assets/img/publication/airbnb.png',
     links: [['Dataset', 'https://github.com/sTechLab/AirbnbHosts', 'arrow-down'], 
             ['PDF', '/assets/papers/ma2017airbnb.pdf']],
-    abstract: 'We examine how hosts describe themselves on their Airbnb profile pages. We use a mixed-methods study to develop a categorization of the topics that hosts self-disclose in their profile descriptions, and show that these topics differ depending on the type of guest engagement expected. We also examine the perceived trustworthiness of profiles using topic-coded profiles from 1,200 hosts, showing that longer self-descriptions are perceived to be more trustworthy. Further, we show that there are common strategies (a mix of topics) hosts use in self-disclosure, and that these strategies cause differences in perceived trustworthiness scores. Finally, we show that the perceived trustworthiness score is a significant predictor of host choice--especially for shorter profiles that show more variation.'
+    abstract: 'We conducted the first large-scale mixed-method analysis of Airbnb host profiles, by categorizing the types of information hosts share in their profiles, and assessing how trustworthy their profiles are perceived to be. We found that hosts do not always follow the prompts by Airbnb website, but instead disclose information that reduces the uncertainty of anticipated future interaction. The language of hospitality, i.e., making direct promises to take care of guests, was found to be the most effective in establishing perceived trustworthiness.'
   },
  { 
+<<<<<<< HEAD
  	mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work and Social Computing. (CSCW 2017), February 2017, Portland, USA',
+=======
+ 	mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
+>>>>>>> hanax/master
     title: 'TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
     author: 'Emily Sun*, Ross McLachlan*, Mor Naaman (*authors contributed equally)',
     conference: 'CSCW 2017',
@@ -54,14 +96,22 @@ var publications = [
     abstract: 'Peer-to-peer indirect exchange services, such as Peerby and NeighborGoods, do not seem to have been as widely adopted as direct exchange systems, such as Uber and AirBnb. Building upon the results of interviews and a survey, previous technology acceptance models, critical mass theory, and prior research on peer economies, we propose a technology acceptance model for indirect exchange systems.'
   },
  {  
+<<<<<<< HEAD
  	mobileInfo: 'Xiao Ma, Emily Sun, Mor Naaman. What Happens in happn: The Warranting Power of Location History in Online Dating. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work and Social Computing. (CSCW 2017), February 2017, Portland, USA',
+=======
+ 	mobileInfo: 'Xiao Ma, Emily Sun, Mor Naaman. What Happens in happn: The Warranting Power of Location History in Online Dating. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
+>>>>>>> hanax/master
     title: 'What Happens in happn: The Warranting Power of Location History in Online Dating',
     author: 'Xiao Ma, Emily Sun, Mor Naaman',
     conference: 'CSCW 2017',
     type: 'Paper',
     image: '/assets/img/publication/happn_website.jpg',
     links: [['PDF', '/assets/papers/making-sense-location_CR.pdf']],
+<<<<<<< HEAD
     abstract: 'A recent mobile dating application, happn, adds a temporal dimension to location-based dating, showing users the number of times and recent overlap that they crossed path with each other. We conducted qualitative interviews with 15 happn users and discuss the findings in the context of Uncertainty Reduction Theory.'
+=======
+    abstract: 'We interviewed users of a novel mobile dating application, happn, which shows users the number of times they crossed path with potential matches. We show that users assigned significant meaning to the minimal cues available from location history information. At the same time, users have concerns about security and recognition by known others as a result of sharing personal location history.'
+>>>>>>> hanax/master
   },
 
   {
@@ -197,6 +247,7 @@ var people = [
     email: 'mor@jacobs.cornell.edu',
     twitter: 'informor'
   },
+/* 
   {
     name: 'Trevor Pinch',
     title: 'Visiting Professor',
@@ -254,15 +305,27 @@ var people = [
 ];
 
 var news = [
-	{ 
+  { 
+    title: 'Matt Law received an Honor Mention for an NSF Fellowship. Nice work!',
+    date: '3/2017'
+  },
+  { 
+    title: 'Received Google Research Award to support our work on attention to online media',
+    date: '2/2017'
+  },
+  { 
+    title: 'Xiao Ma recognized as a Facebook PhD Fellowship Finalist. Congrats!',
+    date: '1/2017'
+  },
+/*	{ 
 		title: '“Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles” Honorable Mention for Best Paper at CSCW 2017',
 		date: '1/2017'
 	},
-	{ 
+/*	{ 
 		title: 'Three papers from the lab were accepted to CHI. Check out the PDFs below!',
 		date: '12/2016'
 	},
-	{ 
+/*	{ 
 		title: 'Five papers by lab authors accepted to CSCW 2017 -- PDF now available.',
 		date: '9/2016'
 	},
