@@ -2,6 +2,28 @@ var marked = require('marked');
 
 var publications = [
   { 
+  mobileInfo: 'Xiao Ma, Trishala Neeraj, and Mor Naaman. A Computational Approach to Perceived Trustworthiness of Airbnb Host Profiles. In Proceedings, International AAAI Conference on Web and Social Media. (ICWSM 2017), May 2017, Montreal, Canada',
+    title: 'A Computational Approach to Perceived Trustworthiness of Airbnb Host Profiles',
+    author: 'Xiao Ma, Trishala Neeraj, Mor Naaman',
+    conference: 'ICWSM 2017',
+    type: 'Poster',
+    image: '/assets/img/publication/computational-airbnb.jpg',
+    links: [['Dataset', 'https://github.com/sTechLab/AirbnbHosts-Extended', 'arrow-down'], 
+            ['PDF', 'http://maxiao.info/assets/computational-airbnb.pdf']],
+    abstract: 'Building on our previous work (see below by Ma et al. CSCW 2017), we developed a novel computational framework to predict the perceived trustworthiness of host profile texts in the context of online lodging marketplaces. We developed a dataset of 4,180 Airbnb host profiles annotated with perceived trustworthiness, and also provide insights into the linguistic factors that contribute to higher and lower perceived trustworthiness for profiles of different lengths.'
+  },
+/* { 
+    mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
+    title: 'Modeling Sub-Document Attention Using Viewport Time',
+    author: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman',
+    conference: 'CHI 2017',
+    type: 'Note',
+    image: '/assets/img/publication/viewport-time-chi2017.png',
+    links: [['PDF', '/assets/papers/viewport-time-chi2017.pdf']],
+    abstract: 'Website measures of engagement captured from millions of users, such as in-page scrolling and viewport position, can provide deeper understanding of attention than possible with simpler measures, such as dwell time. Using data from 1.2M news reading sessions, we examine and evaluate three increasingly sophisticated models of sub-document attention computed from viewport time, the time a page component is visible on the user display. Our approach supports refined large-scale measurement of user engagement at a level previously available only from lab-based eye-tracking studies.'
+  },
+*/
+  { 
   mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
     title: 'Modeling Sub-Document Attention Using Viewport Time',
     author: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman',
@@ -256,14 +278,22 @@ var people = [
 
 var news = [
   { 
-    title: 'Received Google Research Award to support our on attention to online media',
+    title: 'Matt Law received an Honor Mention for an NSF Fellowship. Nice work!',
+    date: '3/2017'
+  },
+  { 
+    title: 'Received Google Research Award to support our work on attention to online media',
     date: '2/2017'
   },
-	{ 
+  { 
+    title: 'Xiao Ma recognized as a Facebook PhD Fellowship Finalist. Congrats!',
+    date: '1/2017'
+  },
+/*	{ 
 		title: '“Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles” Honorable Mention for Best Paper at CSCW 2017',
 		date: '1/2017'
 	},
-	{ 
+/*	{ 
 		title: 'Three papers from the lab were accepted to CHI. Check out the PDFs below!',
 		date: '12/2016'
 	},
