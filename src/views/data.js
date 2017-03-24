@@ -66,7 +66,7 @@ var publications = [
     abstract: 'We conducted the first large-scale mixed-method analysis of Airbnb host profiles, by categorizing the types of information hosts share in their profiles, and assessing how trustworthy their profiles are perceived to be. We found that hosts do not always follow the prompts by Airbnb website, but instead disclose information that reduces the uncertainty of anticipated future interaction. The language of hospitality, i.e., making direct promises to take care of guests, was found to be the most effective in establishing perceived trustworthiness.'
   },
  { 
- 	mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
+  mobileInfo: 'Emily Sun, Ross McLachlan, Mor Naaman. TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
     title: 'TAMIES: A Study and Model of Adoption in P2P Resource Sharing and Indirect Exchange Systems',
     author: 'Emily Sun*, Ross McLachlan*, Mor Naaman (*authors contributed equally)',
     conference: 'CSCW 2017',
@@ -76,7 +76,7 @@ var publications = [
     abstract: 'Peer-to-peer indirect exchange services, such as Peerby and NeighborGoods, do not seem to have been as widely adopted as direct exchange systems, such as Uber and AirBnb. Building upon the results of interviews with 37 residents of New York City, a survey with 195 respondents, previous technology acceptance models, critical mass theory, and prior research on peer economies, we propose a technology acceptance model for indirect exchange systems that includes generalized trust and ease of coordination.'
   },
  {  
- 	mobileInfo: 'Xiao Ma, Emily Sun, Mor Naaman. What Happens in happn: The Warranting Power of Location History in Online Dating. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
+  mobileInfo: 'Xiao Ma, Emily Sun, Mor Naaman. What Happens in happn: The Warranting Power of Location History in Online Dating. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
     title: 'What Happens in happn: The Warranting Power of Location History in Online Dating',
     author: 'Xiao Ma, Emily Sun, Mor Naaman',
     conference: 'CSCW 2017',
@@ -289,26 +289,26 @@ var news = [
     title: 'Xiao Ma recognized as a Facebook PhD Fellowship Finalist. Congrats!',
     date: '1/2017'
   },
-/*	{ 
-		title: '“Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles” Honorable Mention for Best Paper at CSCW 2017',
-		date: '1/2017'
-	},
-/*	{ 
-		title: 'Three papers from the lab were accepted to CHI. Check out the PDFs below!',
-		date: '12/2016'
-	},
-/*	{ 
-		title: 'Five papers by lab authors accepted to CSCW 2017 -- PDF now available.',
-		date: '9/2016'
-	},
-/*	{
-		title:' “Changes in Engagement Before and After Posting to Facebook”  Honorable Mention for Best Paper at CHI 2016',
-		date:'5/2016'
-	},
-  	{
-/*    	title: 'Paper studying view duration of YouTube videos to appear in ICWSM; the paper and dataset are both available below',
-    	date: '4/2016'
-  	},
+/*  { 
+    title: '“Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles” Honorable Mention for Best Paper at CSCW 2017',
+    date: '1/2017'
+  },
+/*  { 
+    title: 'Three papers from the lab were accepted to CHI. Check out the PDFs below!',
+    date: '12/2016'
+  },
+/*  { 
+    title: 'Five papers by lab authors accepted to CSCW 2017 -- PDF now available.',
+    date: '9/2016'
+  },
+/*  {
+    title:' “Changes in Engagement Before and After Posting to Facebook”  Honorable Mention for Best Paper at CHI 2016',
+    date:'5/2016'
+  },
+    {
+/*      title: 'Paper studying view duration of YouTube videos to appear in ICWSM; the paper and dataset are both available below',
+      date: '4/2016'
+    },
 /*  {
     title: 'Mor gave a keynote at [SNOW](http://www.snow-workshop.org) in Montreal on April 12.',
     date: '4/2016'
