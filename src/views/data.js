@@ -12,17 +12,6 @@ var publications = [
             ['PDF', 'http://maxiao.info/assets/computational-airbnb.pdf']],
     abstract: 'Building on our previous work (see below by Ma et al. CSCW 2017), we developed a novel computational framework to predict the perceived trustworthiness of host profile texts in the context of online lodging marketplaces. We developed a dataset of 4,180 Airbnb host profiles annotated with perceived trustworthiness, and also provide insights into the linguistic factors that contribute to higher and lower perceived trustworthiness for profiles of different lengths.'
   },
-/* { 
-    mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
-    title: 'Modeling Sub-Document Attention Using Viewport Time',
-    author: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman',
-    conference: 'CHI 2017',
-    type: 'Note',
-    image: '/assets/img/publication/viewport-time-chi2017.png',
-    links: [['PDF', '/assets/papers/viewport-time-chi2017.pdf']],
-    abstract: 'Website measures of engagement captured from millions of users, such as in-page scrolling and viewport position, can provide deeper understanding of attention than possible with simpler measures, such as dwell time. Using data from 1.2M news reading sessions, we examine and evaluate three increasingly sophisticated models of sub-document attention computed from viewport time, the time a page component is visible on the user display. Our approach supports refined large-scale measurement of user engagement at a level previously available only from lab-based eye-tracking studies.'
-  },
-*/
   { 
   mobileInfo: 'Max Grusky, Jeiran Jahani, Josh Schwartz, Dan Valente, Yoav Artzi, and Mor Naaman. Modeling Sub-Document Attention Using Viewport Time. In Proceedings, ACM International Conference on Human Factors in Computing Systems. (CHI 2017), May 2017, Denver, USA',
     title: 'Modeling Sub-Document Attention Using Viewport Time',
@@ -52,6 +41,16 @@ var publications = [
     image: '/assets/img/publication/secret-qual.png',
     links: [['PDF', '/assets/papers/secret-qual.pdf']],
     abstract: 'We interviewed users of two anonymous social applications, Secret and Mimi, both of which allowed people to share information anonymously with friends. Our findings show that although users feel more comfortable sharing information on these “tie-based” anonymous applications, they are still concerned about being identified, and at the same time, engage in sometimes elaborate attempts to uncover the identities of others.'
+  },
+{ 
+    mobileInfo: 'Nir Grinberg, Shankar Kalyanaraman, Lada Adamic, and Mor Naaman. Understanding Feedback Expectation on Facebook. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
+    title: 'Understanding Feedback Expectation on Facebook.',
+    author: 'Nir Grinberg, Shankar Kalyanaraman, Lada Adamic, and Mor Naaman',
+    conference: 'CSCW 2017',
+    type: 'Paper',
+    image: '/assets/img/publication/feedback_exp_thumb.jpg',
+    links: [['PDF', 'http://www.nirg.net/papers/feedback_exp.pdf']],
+    abstract: 'In this study, we quantitatively examined the factors contributing to feedback expectations and find that fulfilling expectations is linked to connectedness, an important ingredient for well-being. By conducting two large surveys on Facebook.com we find that people report higher expectations on posts they evaluated as more important, and to a lesser extent more personal. Expectations varied across people and friendships, most notably by recency of communication, geographical proximity, and the type of relationship (e.g. family, co-worker). The study provides a conceptual framework for thinking about feedback expectations in social media settings and a computational model for utilizing expectations in the design of social systems.'
   },
  { 
   mobileInfo: 'Xiao Ma, Jeff Hancock, Kenneth Lim Mingjie, Mor Naaman. Self-Disclosure and Perceived Trustworthiness of Airbnb Host Profiles. In Proceedings, ACM International Conference on Computer-Supported Cooperative Work. (CSCW 2017), February 2017, Portland, USA',
